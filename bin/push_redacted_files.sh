@@ -8,6 +8,7 @@ git status
 git add netfile_redacted
 git config --global user.name 'OpenDisclosure Deploybot'
 git config --global user.email 'open-disclosure@gmail.com'
+git remote set-url origin ${{ secrets.ssh }}
 git branch
 git status
 git commit -a -m "netfile update"
