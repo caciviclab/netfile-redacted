@@ -4,7 +4,7 @@ This repo allows someone to develop the code for pulling NetFile data.  The code
 
 ## Enabling NetFile Access
 
-When the GitHub workflow runs under ChenglimEar, the NetFile pull will be simulated using files in netfile_samples.  To enable the workflow to call the NetFile API, this repository has to be forked to a different organization/owner.  It will require an authorized user to update the fork with appropriate credentials for accessing NetFile, which will have to be added as a secret in the forked repository.  In other words, these two secret variables have to be set up in the forked repository:
+When the GitHub workflow runs under ChenglimEar or without credentials on a local machine, the NetFile pull will be simulated using files in netfile_samples.  To enable the workflow to call the NetFile API, this repository has to be forked to a different organization/owner.  It will require an authorized user to update the fork with appropriate credentials for accessing NetFile, which will have to be added as a secret in the forked repository.  In other words, these two secret variables have to be set up in the forked repository:
 
 * NETFILE_API_KEY
 * NETFILE_API_SECRET
