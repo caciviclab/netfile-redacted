@@ -8,4 +8,5 @@ jobs:
   pull_data:
     runs-on: ubuntu-latest
     steps:
-    - run: "python --version"
+    - run: "python pull_and_redact_files.py"
+    - run: "bash push_redacted_files.sh"
