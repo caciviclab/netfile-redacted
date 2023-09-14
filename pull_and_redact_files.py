@@ -10,8 +10,10 @@ REPO_OWNER = os.getenv('REPO_OWNER')
 
 if REPO_OWNER == 'ChenglimEar':
     print(f'Simulating NetFile response for {REPO_OWNER}')
-    data = {'msg':'hello'}
-    with open('netfile_redacted/data.json','w') as f:
+    with open('netfile_samples/filer.json','r') as f:
+        data = json.load(f)
+    # TODO: call redaction function
+    with open('netfile_redacted/filer.json','w') as f:
         json.dump(data,f)
 else:
     print(f'Making NetFile API calls')

@@ -1,0 +1,122 @@
+[
+  {
+    "filerNid": "204054957",
+    "visibilityLevel": "Staff",
+    "filerName": "ZAZABOI FOR OAKLAND CITY COUNCIL DISTRICT 6 2022; YAKPASUA",
+    "candidateName": "Zazaboi, Yakpasua",
+    "aid": "COAK",
+    "adsid": 163882,
+    "isTerminated": true,
+    "committeeTypes": [
+      "Candidate or Officeholder"
+    ],
+    "nameHistory": [
+      "Zazaboi, Yakpasua"
+    ],
+    "addressList": [
+      {
+        "addressTypes": "Disclosure, Mailing",
+        "line1": "xxx",
+        "line2": "",
+        "city": "Oakland",
+        "state": "CA",
+        "zip": "xxx"
+      }
+    ],
+    "phoneList": [
+      {
+        "phoneType": "Other",
+        "number": "xxx"
+      }
+    ],
+    "emailList": [
+      {
+        "address": "xxx",
+        "emailType": "Notification"
+      },
+      {
+        "address": "xxx",
+        "emailType": "Other"
+      }
+    ],
+    "statusItemList": [
+      {
+        "status": "ACTIVE",
+        "date": "2022-06-21T19:54:48.3905373+00:00"
+      },
+      {
+        "status": "TERMINATED",
+        "date": "2023-09-08T21:57:44.8112419+00:00"
+      }
+    ],
+    "registrations": {
+      "CA SOS": "1449857"
+    },
+    "officers": [
+      {
+        "officerName": "Zazaboi, Yakpasua",
+        "position": "Treasurer",
+        "email": {
+          "address": "xxx",
+          "emailType": "Notification"
+        },
+        "phone": {
+          "phoneType": "Main",
+          "number": "xxx"
+        },
+        "addressList": [
+          {
+            "addressTypes": "Disclosure, Mailing",
+            "line1": "xxx",
+            "line2": "",
+            "city": "Oakland",
+            "state": "CA",
+            "zip": "xxx"
+          }
+        ]
+      }
+    ],
+    "electionInfluences": [
+      {
+        "influenceNid": "204054964",
+        "filerNid": "204054957",
+        "startDate": "2022-06-08",
+        "endDate": null,
+        "adsid": 163882,
+        "electionNid": "178981824",
+        "seatNid": "181523064",
+        "seatOfficeNid": "121709771",
+        "candidateNid": "204054948",
+        "electionCandidateNid": "204054950",
+        "measureNid": null,
+        "electionItemReferenceId": null,
+        "committeeEntityId": "204054959",
+        "committeeName": "ZAZABOI FOR OAKLAND CITY COUNCIL DISTRICT 6 2022; YAKPASUA",
+        "doesSupport": true,
+        "aid": "COAK",
+        "electionDate": "2022-11-08",
+        "electionCaption": "11/8/2022 - General",
+        "electionCodes": "General",
+        "isPublic": true,
+        "measure": null,
+        "seat": {
+          "seatNid": "181523064",
+          "electionNid": "178981824",
+          "seatOfficeNid": "121709771",
+          "seatCaption": "City Council - City of Oakland - 6",
+          "officeName": "City Council - City of Oakland - 6"
+        },
+        "candidate": {
+          "candidateNid": "204054948",
+          "candidateName": "Zazaboi, Yakpasua",
+          "seatNid": "181523064",
+          "isIncumbent": false,
+          "isWinner": false,
+          "partyAffiliationId": "0",
+          "partyAffiliationName": ""
+        }
+      }
+    ]
+  }
+]
+
