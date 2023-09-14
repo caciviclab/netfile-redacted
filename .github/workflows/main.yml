@@ -10,7 +10,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3
       with:
-        ssh-key: ${{ secrets.DEPLOY_KEY }}
+        token: ${{ secrets.GITHUB_TOKEN }}
 
     - run: "python pull_and_redact_files.py"
       env:
