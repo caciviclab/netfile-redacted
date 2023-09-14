@@ -1,3 +1,3 @@
-# test-dev-container
+# netfile_redacted
 
-A throw away repo used to check dev container.
+This repo allows someone to develop the code to pull netfile data, but it will require an authorized user to pull the changes from here to a fork in order to apply appropriate credentials for accessing netfile through a secret.
