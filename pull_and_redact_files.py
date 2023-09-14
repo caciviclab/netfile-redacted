@@ -1,5 +1,6 @@
 import os
 import json
+import yaml
 from netfile_client.NetFileClient import NetFileClient
 
 class DataRetriever:
@@ -59,35 +60,10 @@ class DataRetriever:
             for field_path in fields_to_redact:
                 self.redact_path(item, field_path)
 
+if __name__ == '__main__':
+    with open('config.yaml', 'r') as f:
+        config = yaml.safe_load(f)
 
-config = {
-    'redaction_fields': {
-        'filers': [
-            'addressList.[].line1'
-            , 'addressList.[].line2'
-            , 'addressList.[].zip'
-            , 'emailList.[].address'
-            , 'officers.[].addressList.[].line1'
-            , 'officers.[].addressList.[].line2'
-            , 'officers.[].addressList.[].zip'
-            , 'officers.[].email.address'
-            , 'officers.[].phone.number'
-            , 'phoneList.[].number'
-        ]
-        , 'filings': [
-
-        ]
-        #, 'transactions': [
-        #]
-        #, 'filing_activities': [
-        #]
-        #, 'filing_elements': [
-        #]
-        #, 'elections': [
-        #]
-    }
-}
-
-retriever = DataRetriever(config)
-retriever.fetch_and_redact_all()
+    retriever = DataRetriever(config)
+    retriever.fetch_and_redact_all()
 

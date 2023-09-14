@@ -1,0 +1,17 @@
+redaction_fields:
+  filers:
+  - addressList.[].line1
+  - addressList.[].line2
+  - addressList.[].zip
+  - emailList.[].address
+  - officers.[].addressList.[].line1
+  - officers.[].addressList.[].line2
+  - officers.[].addressList.[].zip
+  - officers.[].email.address
+  - officers.[].phone.number
+  - phoneList.[].number
+  filings: []
+  #transactions: []
+  #filing_activities: []
+  #filing_elements: []
+  #elections: []
