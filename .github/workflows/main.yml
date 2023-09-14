@@ -13,4 +13,6 @@ jobs:
         ssh-key: ${{ secrets.DEPLOY_KEY }}
 
     - run: "python pull_and_redact_files.py"
+      env:
+        REPO_NAME: ${{ github.event.repository.name }}
     - run: "bash bin/push_redacted_files.sh"
