@@ -12,4 +12,4 @@ git config --global user.email 'open-disclosure@gmail.com'
 git status
 echo "Committing"
 git commit -m "netfile update"
-git push
+#git push
