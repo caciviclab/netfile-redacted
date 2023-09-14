@@ -2,3 +2,8 @@
 
 echo "Pushing netfile_redacted to repo"
 ls netfile_redacted
+
+git status
+git add netfile_redacted
+git commit -a -m "netfile update"
+git push
