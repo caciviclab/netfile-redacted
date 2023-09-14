@@ -10,7 +10,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3
       with:
-        token: ${{ secrets.WORKFLOW_GIT_ACCESS_TOKEN }}
+        ssh-key: ${{ secrets.DEPLOY_KEY }}
 
     - run: "python pull_and_redact_files.py"
     - run: "bash bin/push_redacted_files.sh"
