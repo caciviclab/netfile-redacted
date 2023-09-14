@@ -9,4 +9,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - run: "python pull_and_redact_files.py"
-    - run: "bash push_redacted_files.sh"
+    - run: "bash bin/push_redacted_files.sh"
