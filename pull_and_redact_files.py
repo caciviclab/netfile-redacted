@@ -8,13 +8,13 @@ os.makedirs('netfile_redacted', exist_ok=True)
 
 REPO_OWNER = os.getenv('REPO_OWNER')
 
-print(REPO_OWNER)
-
 if REPO_OWNER == 'ChenglimEar':
+    print(f'Simulating NetFile response for {REPO_OWNER}')
     data = {'msg':'hello'}
     with open('netfile_redacted/data.json','w') as f:
         json.dump(data,f)
 else:
+    print(f'Making NetFile API calls')
     nf = NetFileClient()
     nf.fetch('filings')
 
