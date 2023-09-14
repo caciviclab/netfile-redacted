@@ -10,7 +10,12 @@ redaction_fields:
   - officers.[].email.address
   - officers.[].phone.number
   - phoneList.[].number
-  filings: []
+  filings:
+  - filerMeta.addressList.[].line1
+  - filerMeta.addressList.[].line2
+  - filerMeta.addressList.[].zip
+  - filerMeta.emailList.[].address
+  - filerMeta.phoneList.[].number
   #transactions: []
   #filing_activities: []
   #filing_elements: []

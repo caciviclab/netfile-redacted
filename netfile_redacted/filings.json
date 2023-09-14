@@ -57,10 +57,10 @@
     {
      "addressTypes": "Disclosure, Mailing",
      "city": "Oakland",
-     "line1": "xxx",
-     "line2": "",
+     "line1": "***",
+     "line2": "***",
      "state": "CA",
-     "zip": "xxx"
+     "zip": "***"
     }
    ],
    "booleans": {},
@@ -70,11 +70,11 @@
    },
    "emailList": [
     {
-     "address": "xxx",
+     "address": "***",
      "emailType": "Notification"
     },
     {
-     "address": "xxx",
+     "address": "***",
      "emailType": "Other"
     }
    ],
@@ -82,7 +82,7 @@
    "numbers": {},
    "phoneList": [
     {
-     "number": "xxx",
+     "number": "***",
      "phoneType": "Other"
     }
    ],

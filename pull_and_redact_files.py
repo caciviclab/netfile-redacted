@@ -46,12 +46,15 @@ class DataRetriever:
     def redact_path(self, data, path):
         parts = path.split('.',1)
         if len(parts) == 1:
-            data[path] = '***'
+            if (type(data) == dict) and (path in data):
+                data[path] = '***'
         elif parts[0] == '[]':
-            for i,v in enumerate(data):
-                self.redact_path(v, parts[1])
+            if (type(data) == list):
+                for i,v in enumerate(data):
+                    self.redact_path(v, parts[1])
         else:
-            self.redact_path(data[parts[0]], parts[1])
+            if (type(data) == dict) and (parts[0] in data):
+                self.redact_path(data[parts[0]], parts[1])
 
     def redact(self, data, data_key):
         fields_to_redact = self.config['redaction_fields'][data_key]
