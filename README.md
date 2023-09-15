@@ -68,5 +68,4 @@ The redacted file will look like this:
 
 ## TODO
 
-* Add code for redacting raw NetFile data (make it configurable)
 * Make sure code that calls NetFile API works when credentials are provided and puts files in the right place
