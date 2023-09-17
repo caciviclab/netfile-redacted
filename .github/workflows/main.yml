@@ -16,4 +16,6 @@ jobs:
     - run: "python pull_and_redact_files.py"
       env:
         REPO_OWNER: ${{ github.repository_owner}}
+        NETFILE_API_KEY: ${{ secrets.NETFILE_API_KEY }}
+        NETFILE_API_SECRET: ${{ secrets.NETFILE_API_SECRET }}
     - run: "bash bin/push_redacted_files.sh"
