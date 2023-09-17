@@ -13,6 +13,7 @@ jobs:
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
 
+    - run: "pip install -r requirements.txt"
     - run: "python pull_and_redact_files.py"
       env:
         REPO_OWNER: ${{ github.repository_owner}}
