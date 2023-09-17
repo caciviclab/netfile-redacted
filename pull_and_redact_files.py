@@ -25,7 +25,7 @@ class DataRetriever:
     def fetch_and_redact_all(self):
         data_keys = self.config['redaction_fields'].keys()
         for name in data_keys:
-            data = retriever.fetch(name)
+            data = self.fetch(name)
             self.redact(data, name)
             with open(f'netfile_redacted/{name}.json','w') as f:
                 json.dump(data,f,sort_keys=True,indent=1)
