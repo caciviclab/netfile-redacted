@@ -69,7 +69,7 @@ class GDriveCopier:
     def get_private_key(self):
         SERVICE_ACCOUNT_KEY_JSON = os.getenv('SERVICE_ACCOUNT_KEY_JSON','')
         if SERVICE_ACCOUNT_KEY_JSON == '':
-            secret_file = os.path.join(os.getcwd(), '.local/SERVICE_ACCOUNT_KEY_JSON.json')
+            secret_file = os.path.join(os.path.join(os.getcwd(), '.local'),'SERVICE_ACCOUNT_KEY_JSON.json')
             with open(secret_file,'r') as f:
                 SERVICE_ACCOUNT_KEY_JSON = f.read()
         return SERVICE_ACCOUNT_KEY_JSON

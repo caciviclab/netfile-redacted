@@ -5,8 +5,9 @@ REPO_OWNER = os.getenv('REPO_OWNER','')
 REPO_BRANCH = os.getenv('REPO_BRANCH','_LOCAL_')
 
 if (REPO_OWNER in ['','ChenglimEar']):
-    os.makedirs('.local/downloads', exist_ok=True)
+    downloads_dir = '.local/downloads'
+    os.makedirs(downloads_dir, exist_ok=True)
     copier = GDriveCopier('netfile_redacted', target_branch = REPO_BRANCH)
-    copier.download_to('.local/downloads')
-    print('Contents of downloads dir:')
-    os.system('ls .local/downloads')
+    copier.download_to(downloads_dir)
+    print(f'Contents of downloads dir ({downloads_dir}):')
+    os.system(f'ls {downloads_dir}')
