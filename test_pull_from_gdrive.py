@@ -12,5 +12,7 @@ if (REPO_OWNER in ['','ChenglimEar']):
     copier = GDriveCopier('netfile_redacted', target_branch = REPO_BRANCH)
     copier.download_to(downloads_dir)
     print(f'Contents of downloads dir ({downloads_dir}):')
-    subprocess.call(f'ls {downloads_dir}', shell=True)
+    exit_code = subprocess.call(f'ls {downloads_dir}', shell=True)
+    print(exit_code)
+    print('Done')
     sys.stdout.flush()
