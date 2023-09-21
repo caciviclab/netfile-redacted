@@ -19,3 +19,10 @@ jobs:
         NETFILE_API_KEY: ${{ secrets.NETFILE_API_KEY }}
         NETFILE_API_SECRET: ${{ secrets.NETFILE_API_SECRET }}
     - run: "bash bin/push_redacted_files.sh"
+    - run: "python push_to_gdrive.py"
+      env:
+        SERVICE_ACCOUNT_KEY_JSON: ${{ secrets.SERVICE_ACCOUNT_KEY_JSON }}
+    - run: "python test_pull_from_gdrive.py"
+      env:
+        SERVICE_ACCOUNT_KEY_JSON: ${{ secrets.SERVICE_ACCOUNT_KEY_JSON }}
+        REPO_OWNER: ${{ github.repository_owner}}
