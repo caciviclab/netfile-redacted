@@ -37,6 +37,7 @@ class GDriveCopier:
         # Upload local files to folder on Google Drive
         local_files = os.listdir(local_folder)
         for local_file in local_files:
+            print(f'Uploading {local_file}')
             if local_file not in folder_file_list_dict:
                 drive_file = self.drive.CreateFile({'parents': [{'id': self.folder_id}], 'title':local_file})
             else:
