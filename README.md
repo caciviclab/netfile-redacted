@@ -25,6 +25,8 @@ The GitHub workflow has the ability to upload redacted files in netfile_redacted
 
 If SERVICE_ACCOUNT_KEY_JSON is not set, the redacted files will be copied to the repository.
 
+A test for downloading the redacted files to a download directory is run when the workflow runs on ChenglimEar.
+
 ## Redaction Configuration
 
 To add new redactions or modify an existing one, simply modify the `config.yaml` file, which contains a list of paths to all the fields to redact for each type of data.
