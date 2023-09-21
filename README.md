@@ -9,6 +9,22 @@ When the GitHub workflow runs under ChenglimEar or without credentials on a loca
 * NETFILE_API_KEY
 * NETFILE_API_SECRET
 
+## Enabling Google Drive Upload
+
+The GitHub workflow has the ability to upload redacted files in netfile_redacted to Google Drive.  To enable this, the following has to be done:
+
+    1. A service account has to be created in a project with access to the Google Drive API.
+       It's probably best to create a GCP project specifically just for access to the 
+       Google Drive API and create the service account in that project.  
+    2. The directory on Google Drive has to be shared with the service account.  This is
+       done by getting the e-mail of the service account and sharing with that e-mail 
+       instead of a real person's e-mail.
+    3. A private key (in JSON) has to be created for the service account.  The private key 
+       should be placed in an environment variable, SERVICE_ACCOUNT_KEY_JSON.  For
+       GitHub Actions, we can simply get the value from a secret of the same name.
+
+If SERVICE_ACCOUNT_KEY_JSON is not set, the redacted files will be copied to the repository.
+
 ## Redaction Configuration
 
 To add new redactions or modify an existing one, simply modify the `config.yaml` file, which contains a list of paths to all the fields to redact for each type of data.
