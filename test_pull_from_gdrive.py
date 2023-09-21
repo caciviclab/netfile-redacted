@@ -1,5 +1,6 @@
 import os
 import subprocess
+import sys
 from gdrive_client.GDriveCopier import GDriveCopier
 
 REPO_OWNER = os.getenv('REPO_OWNER','')
@@ -12,3 +13,4 @@ if (REPO_OWNER in ['','ChenglimEar']):
     copier.download_to(downloads_dir)
     print(f'Contents of downloads dir ({downloads_dir}):')
     subprocess.call(f'ls {downloads_dir}', shell=True)
+    sys.stdout.flush()
