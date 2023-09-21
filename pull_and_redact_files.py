@@ -1,30 +1,72 @@
 import os
 import json
+import yaml
 from netfile_client.NetFileClient import NetFileClient
 
-def redact(data):
-    # TODO: add code that will redact data according to configuration
-    pass
+class DataRetriever:
+    def __init__(self, config):
+        self.config = config
 
-os.makedirs('netfile_redacted', exist_ok=True)
+        NETFILE_API_KEY = os.getenv('NETFILE_API_KEY','')
+        NETFILE_API_SECRET = os.getenv('NETFILE_API_SECRET','')
+        REPO_OWNER = os.getenv('REPO_OWNER','')
+        if ((NETFILE_API_KEY != '') and (NETFILE_API_SECRET != '')) or os.path.exists('.env'):
+            print(f'Making NetFile API calls')
+            self.nf = NetFileClient(api_key='',api_secret='')
 
-REPO_OWNER = os.getenv('REPO_OWNER')
+        elif (REPO_OWNER != '') and (REPO_OWNER not in ['ChenglimEar']):
+            raise Exception('No NetFile credentials provided when expected')
+        else:
+            print(f'Simulating NetFile response since no credentials provided')
+            self.nf = None
 
-if REPO_OWNER == 'ChenglimEar':
-    print(f'Simulating NetFile response for {REPO_OWNER}')
-    for name in ['filers','filings']:
-        with open(f'netfile_samples/{name}.json','r') as f:
-            data = json.load(f)
-            redact(data)
-        with open(f'netfile_redacted/{name}.json','w') as f:
-            json.dump(data,f)
-else:
-    print(f'Making NetFile API calls')
-    nf = NetFileClient()
-    for name in ['filers', 'filings']:
-    #for name in ['filers', 'filings','transactions', 'filing_activities', 'filing_elements', 'elections']:
-        data = nf.fetch(name)
-        redact(data)
-        with open(f'netfile_redacted/{name}.json','w') as f:
-            json.dump(data,f)
+        os.makedirs('netfile_redacted', exist_ok=True)
+
+    def fetch_and_redact_all(self):
+        data_keys = self.config['redaction_fields'].keys()
+        for name in data_keys:
+            data = self.fetch(name)
+            self.redact(data, name)
+            with open(f'netfile_redacted/{name}.json','w') as f:
+                json.dump(data,f,sort_keys=True,indent=1)
+
+
+    def fetch(self,name):
+        if self.nf is None:
+            filepath = f'netfile_samples/{name}.json'
+            if os.path.exists(filepath):
+                with open(filepath,'r') as f:
+                    data = json.load(f)
+            else:
+                data = []
+        else:
+            data = self.nf.fetch(name)
+        return data
+
+    def redact_path(self, data, path):
+        parts = path.split('.',1)
+        if len(parts) == 1:
+            if (type(data) == dict) and (path in data):
+                data[path] = '***'
+        elif parts[0] == '[]':
+            if (type(data) == list):
+                for i,v in enumerate(data):
+                    self.redact_path(v, parts[1])
+        else:
+            if (type(data) == dict) and (parts[0] in data):
+                self.redact_path(data[parts[0]], parts[1])
+
+    def redact(self, data, data_key):
+        fields_to_redact = self.config['redaction_fields'][data_key]
+
+        for item in data:
+            for field_path in fields_to_redact:
+                self.redact_path(item, field_path)
+
+if __name__ == '__main__':
+    with open('config.yaml', 'r') as f:
+        config = yaml.safe_load(f)
+
+    retriever = DataRetriever(config)
+    retriever.fetch_and_redact_all()
 
