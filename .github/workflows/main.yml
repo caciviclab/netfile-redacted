@@ -34,6 +34,4 @@ jobs:
         SERVICE_ACCOUNT_KEY_JSON: ${{ secrets.SERVICE_ACCOUNT_KEY_JSON }}
         REPO_OWNER: ${{ github.repository_owner}}
         REPO_BRANCH: ${{ github.ref_name }}
-    - run: "ls -al"
-    - run: "ls -al .local"
-    - run: "ls -al .local/downloads"
+
