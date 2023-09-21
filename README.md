@@ -27,6 +27,8 @@ If SERVICE_ACCOUNT_KEY_JSON is not set, the redacted files will be copied to the
 
 A test for downloading the redacted files to a download directory is run when the workflow runs on ChenglimEar.
 
+The upload and download can be tested locally by naming the key file as `.local/SERVICE_ACCOUNT_KEY_JSON.json`.  The `.local` directory is in the `.gitignore` file, so the file won't be checked in accidentally.
+
 ## Redaction Configuration
 
 To add new redactions or modify an existing one, simply modify the `config.yaml` file, which contains a list of paths to all the fields to redact for each type of data.

@@ -20,8 +20,13 @@ for this:
        GitHub Actions, we can simply get the value from a secret of the same name.
 '''
 class GDriveCopier:
-    def __init__(self, target_folder):
+    def __init__(self, target_folder, target_branch = ''):
+        # The target_branch value will force the target to be a sub-folder
+        # under target_folder that is named with the value in target_branch.
+        # This ensures that we upload to a different location when we run
+        # a workflow in a feature branch
         self.target_folder = target_folder
+        self.target_branch = target_branch
         # Establish connection with Google Drive
         gauth = GoogleAuth() 
         gauth.credentials = self.get_service_account_credentials()
@@ -32,26 +37,26 @@ class GDriveCopier:
     
     def upload_from(self, local_folder):
         # Get list of files in folder on Google Drive
-        folder_file_list_dict = self.get_drive_files()
+        drive_files_dict = self.get_drive_files(self.folder_id)
 
         # Upload local files to folder on Google Drive
         local_files = os.listdir(local_folder)
         for local_file in local_files:
             print(f'Uploading {local_file}')
-            if local_file not in folder_file_list_dict:
+            if local_file not in drive_files_dict:
                 drive_file = self.drive.CreateFile({'parents': [{'id': self.folder_id}], 'title':local_file})
             else:
                 # overwrite if file exists on Google Drive
-                drive_file = self.drive.CreateFile({'parents': [{'id': self.folder_id}], 'id':folder_file_list_dict[local_file]['id'], 'title':local_file})
+                drive_file = self.drive.CreateFile({'parents': [{'id': self.folder_id}], 'id':drive_files_dict[local_file]['id'], 'title':local_file})
             drive_file.SetContentFile(f'{self.target_folder}/{local_file}')
             drive_file.Upload()
 
     def download_to(self, local_folder):
         # Get list of files in folder on Google Drive
-        folder_file_list_dict = self.get_drive_files()
-        for file_name in folder_file_list_dict.keys():
+        drive_files_dict = self.get_drive_files(self.folder_id)
+        for file_name in drive_files_dict.keys():
             print(f'Downloading {file_name}')
-            drive_file = folder_file_list_dict[file_name]
+            drive_file = drive_files_dict[file_name]
             drive_file.GetContentFile(f'{local_folder}/{file_name}')
 
     def get_service_account_credentials(self):
@@ -64,18 +69,18 @@ class GDriveCopier:
     def get_private_key(self):
         SERVICE_ACCOUNT_KEY_JSON = os.getenv('SERVICE_ACCOUNT_KEY_JSON','')
         if SERVICE_ACCOUNT_KEY_JSON == '':
-            secret_file = os.path.join(os.getcwd(), 'SERVICE_ACCOUNT_KEY_JSON.json')
+            secret_file = os.path.join(os.getcwd(), '.local/SERVICE_ACCOUNT_KEY_JSON.json')
             with open(secret_file,'r') as f:
                 SERVICE_ACCOUNT_KEY_JSON = f.read()
         return SERVICE_ACCOUNT_KEY_JSON
 
-    def get_drive_files(self):
+    def get_drive_files(self, folder_id):
         # Get list of files in folder on Google Drive
-        folder_file_list = self.drive.ListFile({'q':f"'{self.folder_id}' in parents and trashed=false"}).GetList()
-        folder_file_list_dict = {}
-        for folder_file in folder_file_list:
-            folder_file_list_dict[folder_file['title']] = folder_file
-        return folder_file_list_dict
+        drive_files = self.drive.ListFile({'q':f"'{folder_id}' in parents and trashed=false"}).GetList()
+        drive_files_dict = {}
+        for drive_file in drive_files:
+            drive_files_dict[drive_file['title']] = drive_file
+        return drive_files_dict
 
     def get_folder_id(self):
         file_list = self.drive.ListFile({'q': "trashed=false"}).GetList()
@@ -86,4 +91,13 @@ class GDriveCopier:
                 folder_id = file['id']
         if folder_id is None:
             raise Exception(f'Missing folder {self.target_folder}.  Be sure to share the folder with the service account.')
+        if self.target_branch != '':
+            branch_files = self.get_drive_files(folder_id)
+            if self.target_branch in branch_files:
+                folder_id = branch_files[self.target_branch]['id']
+            else:
+                drive_file = self.drive.CreateFile({'parents': [{'id': folder_id}], 'title':self.target_branch, 'mimeType':'application/vnd.google-apps.folder'})
+                drive_file.Upload()
+                folder_id = drive_file['id']
+
         return folder_id

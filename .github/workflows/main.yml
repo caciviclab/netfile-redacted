@@ -27,8 +27,10 @@ jobs:
       if: ${{ env.SERVICE_ACCOUNT_KEY_JSON != '' }}
       env:
         SERVICE_ACCOUNT_KEY_JSON: ${{ secrets.SERVICE_ACCOUNT_KEY_JSON }}
+        REPO_BRANCH: ${{ github.ref_name }}
     - run: "python test_pull_from_gdrive.py"
       if: ${{ env.SERVICE_ACCOUNT_KEY_JSON != '' }}
       env:
         SERVICE_ACCOUNT_KEY_JSON: ${{ secrets.SERVICE_ACCOUNT_KEY_JSON }}
         REPO_OWNER: ${{ github.repository_owner}}
+        REPO_BRANCH: ${{ github.ref_name }}
