@@ -1,4 +1,5 @@
 import os
+import subprocess
 from gdrive_client.GDriveCopier import GDriveCopier
 
 REPO_OWNER = os.getenv('REPO_OWNER','')
@@ -10,5 +11,4 @@ if (REPO_OWNER in ['','ChenglimEar']):
     copier = GDriveCopier('netfile_redacted', target_branch = REPO_BRANCH)
     copier.download_to(downloads_dir)
     print(f'Contents of downloads dir ({downloads_dir}):')
-    os.system(f'ls {downloads_dir}')
-    flush()
+    subprocess.call(f'ls {downloads_dir}', shell=True)
