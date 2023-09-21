@@ -11,3 +11,4 @@ if (REPO_OWNER in ['','ChenglimEar']):
     copier.download_to(downloads_dir)
     print(f'Contents of downloads dir ({downloads_dir}):')
     os.system(f'ls {downloads_dir}')
+    flush()
