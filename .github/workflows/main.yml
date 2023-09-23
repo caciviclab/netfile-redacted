@@ -19,17 +19,12 @@ jobs:
         REPO_OWNER: ${{ github.repository_owner}}
         NETFILE_API_KEY: ${{ secrets.NETFILE_API_KEY }}
         NETFILE_API_SECRET: ${{ secrets.NETFILE_API_SECRET }}
-    - run: "bash bin/push_redacted_files.sh"
-      if: ${{ env.SERVICE_ACCOUNT_KEY_JSON == '' }}
-      env:
-        SERVICE_ACCOUNT_KEY_JSON: ${{ secrets.SERVICE_ACCOUNT_KEY_JSON }}
     - run: "python push_to_gdrive.py"
-      if: ${{ env.SERVICE_ACCOUNT_KEY_JSON != '' }}
       env:
         SERVICE_ACCOUNT_KEY_JSON: ${{ secrets.SERVICE_ACCOUNT_KEY_JSON }}
         REPO_BRANCH: ${{ github.ref_name }}
     - run: "python test_pull_from_gdrive.py"
-      if: ${{ env.SERVICE_ACCOUNT_KEY_JSON != '' }}
+      if: ${{ env.REPO_OWNER == 'ChenglimEar' }} # Only test pull from Google Drive on developer fork
       env:
         SERVICE_ACCOUNT_KEY_JSON: ${{ secrets.SERVICE_ACCOUNT_KEY_JSON }}
         REPO_OWNER: ${{ github.repository_owner}}
