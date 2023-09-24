@@ -8,6 +8,10 @@ permissions:
 jobs:
   pull_data:
     runs-on: ubuntu-latest
+    env:
+      REPO_OWNER: ${{ github.repository_owner}}
+      REPO_BRANCH: ${{ github.ref_name }}
+      SERVICE_ACCOUNT_KEY_JSON: ${{ secrets.SERVICE_ACCOUNT_KEY_JSON }}
     steps:
     - uses: actions/checkout@v3
       with:
@@ -16,17 +20,9 @@ jobs:
     - run: "pip install -r requirements.txt"
     - run: "python pull_and_redact_files.py"
       env:
-        REPO_OWNER: ${{ github.repository_owner}}
         NETFILE_API_KEY: ${{ secrets.NETFILE_API_KEY }}
         NETFILE_API_SECRET: ${{ secrets.NETFILE_API_SECRET }}
     - run: "python push_to_gdrive.py"
-      env:
-        SERVICE_ACCOUNT_KEY_JSON: ${{ secrets.SERVICE_ACCOUNT_KEY_JSON }}
-        REPO_BRANCH: ${{ github.ref_name }}
     - run: "python test_pull_from_gdrive.py"
       if: ${{ env.REPO_OWNER == 'ChenglimEar' }} # Only test pull from Google Drive on developer fork
-      env:
-        SERVICE_ACCOUNT_KEY_JSON: ${{ secrets.SERVICE_ACCOUNT_KEY_JSON }}
-        REPO_OWNER: ${{ github.repository_owner}}
-        REPO_BRANCH: ${{ github.ref_name }}
 
