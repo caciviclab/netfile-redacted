@@ -43,11 +43,15 @@ class GDriveCopier:
         local_files = os.listdir(local_folder)
         for local_file in local_files:
             print(f'Uploading {local_file}')
-            if local_file not in drive_files_dict:
-                drive_file = self.drive.CreateFile({'parents': [{'id': self.folder_id}], 'title':local_file})
-            else:
+            file_meta_data = {
+                'parents': [{'id': self.folder_id}],
+                'title':local_file
+            }
+            
+            if local_file in drive_files_dict:
                 # overwrite if file exists on Google Drive
-                drive_file = self.drive.CreateFile({'parents': [{'id': self.folder_id}], 'id':drive_files_dict[local_file]['id'], 'title':local_file})
+                file_meta_data['id'] = drive_files_dict[local_file]['id']
+            drive_file = self.drive.CreateFile(file_meta_data)
             drive_file.SetContentFile(f'{self.target_folder}/{local_file}')
             drive_file.Upload()
 
@@ -87,10 +91,12 @@ class GDriveCopier:
         folder_id = None
         for file in file_list: 
             if (file['title'] == self.target_folder) and (file['mimeType'] == 'application/vnd.google-apps.folder'):
-                print('title: %s, id: %s' % (file['title'], file['id']))
+                print(f"title: {file['title']}, id: {file['id']}")
                 folder_id = file['id']
         if folder_id is None:
             raise Exception(f'Missing folder {self.target_folder}.  Be sure to share the folder with the service account.')
+        # if a target branch was specified, look for the sub-folder named after the branch
+        # as the location where we expect to find uploaded files
         if self.target_branch != '':
             branch_files = self.get_drive_files(folder_id)
             if self.target_branch in branch_files:
