@@ -4,21 +4,21 @@ from oauth2client.service_account import ServiceAccountCredentials
 from pydrive.auth import GoogleAuth 
 from pydrive.drive import GoogleDrive
 
-'''
-This copier class supports uploading and downloading files between a local folder
-and a folder on Google Drive.  The following has to be done to set up
-for this:
-    1. A service account has to be created in a project with access to the Google Drive API.
-       It's probably best to create a GCP project specifically just for access to the 
-       Google Drive API and create the service account in that project.  
-    2. The directory on Google Drive has to be shared with the service account.  This is
-       done by getting the e-mail of the service account and sharing with that e-mail 
-       instead of a real person's e-mail.
-    3. A private key (in JSON) has to be created for the service account.  The private key 
-       should be placed in an environment variable, SERVICE_ACCOUNT_KEY_JSON.  For
-       GitHub Actions, we can simply get the value from a secret of the same name.
-'''
 class GDriveCopier:
+    '''This copier class supports uploading and downloading files between a local folder
+and a folder on Google Drive.  
+
+    The following has to be done to set up for uploading to and downloading from Google Drive:
+        1. A service account has to be created in a project with access to the Google Drive API.
+           It's probably best to create a GCP project specifically just for access to the 
+           Google Drive API and create the service account in that project.  
+        2. The directory on Google Drive has to be shared with the service account.  This is
+           done by getting the e-mail of the service account and sharing with that e-mail 
+           instead of a real person's e-mail.
+        3. A private key (in JSON) has to be created for the service account.  The private key 
+           should be placed in an environment variable, SERVICE_ACCOUNT_KEY_JSON.  For
+           GitHub Actions, we can simply get the value from a secret of the same name.
+    '''
     def __init__(self, target_folder, target_branch = ''):
         # The target_branch value will force the target to be a sub-folder
         # under target_folder that is named with the value in target_branch.
@@ -35,6 +35,7 @@ class GDriveCopier:
         self.folder_id = self.get_folder_id()
     
     def upload_from(self, local_folder):
+        '''Upload files from local_folder to Google Drive'''
         # Get list of files in folder on Google Drive
         drive_files_dict = self.get_drive_files(self.folder_id)
 
@@ -55,7 +56,8 @@ class GDriveCopier:
             drive_file.Upload()
 
     def download_to(self, local_folder):
-        # Get list of files in folder on Google Drive
+        '''Download files from Google Drive to local_folder'''
+        #Get list of files in folder on Google Drive
         drive_files_dict = self.get_drive_files(self.folder_id)
         for file_name in drive_files_dict.keys():
             print(f'Downloading {file_name}')
@@ -63,6 +65,7 @@ class GDriveCopier:
             drive_file.GetContentFile(f'{local_folder}/{file_name}')
 
     def get_service_account_credentials(self):
+        '''Extract service account credentials from service account JSON file with key'''
         scopes = ["https://www.googleapis.com/auth/drive"]
         key = self.get_private_key()
         key_dict = json.loads(key)
@@ -70,6 +73,12 @@ class GDriveCopier:
         return credentials
 
     def get_private_key(self):
+        '''Get the JSON string that has the private key for the service account.
+        
+        Look for it in the SERVICE_ACCOUNT_KEY_JSON environment variable and fall back
+        to a JSON file in .local/SERVICE_ACCOUNT_KEY_JSON.json if the environment variable
+        is empty or missing
+        '''
         SERVICE_ACCOUNT_KEY_JSON = os.getenv('SERVICE_ACCOUNT_KEY_JSON','')
         if SERVICE_ACCOUNT_KEY_JSON == '':
             secret_file = os.path.join(os.path.join(os.getcwd(), '.local'),'SERVICE_ACCOUNT_KEY_JSON.json')
@@ -78,7 +87,7 @@ class GDriveCopier:
         return SERVICE_ACCOUNT_KEY_JSON
 
     def get_drive_files(self, folder_id):
-        # Get list of files in folder on Google Drive
+        '''Get list of files in folder on Google Drive'''
         drive_files = self.drive.ListFile({'q':f"'{folder_id}' in parents and trashed=false"}).GetList()
         drive_files_dict = {}
         for drive_file in drive_files:
@@ -86,6 +95,7 @@ class GDriveCopier:
         return drive_files_dict
 
     def get_folder_id(self):
+        '''Get the folder id of the folder where files are uploaded'''
         folder_id = self.confirm_target_folder_exists()
         # if a target branch was specified, look for the sub-folder named after the branch
         # as the location where we expect to find uploaded files
@@ -95,6 +105,7 @@ class GDriveCopier:
         return folder_id
     
     def confirm_target_folder_exists(self):
+        '''Look in Google Drive for target_folder and return the id or raise an exception if it is missing'''
         file_list = self.drive.ListFile({'q': "trashed=false"}).GetList()
         folder_id = None
         for file in file_list: 
@@ -106,6 +117,10 @@ class GDriveCopier:
         return folder_id
     
     def ensure_branch_folder_exists(self,parent_folder_id):
+        '''Look in Google Drive for the branch sub-folder and return the id
+        
+        Create the folder if it is missing
+        '''
         branch_files = self.get_drive_files(parent_folder_id)
         if self.target_branch in branch_files:
             folder_id = branch_files[self.target_branch]['id']
