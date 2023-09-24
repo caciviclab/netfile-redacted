@@ -13,15 +13,13 @@ When the GitHub workflow runs under ChenglimEar or without credentials on a loca
 
 The GitHub workflow has the ability to upload redacted files in netfile_redacted to Google Drive.  To enable this, the following has to be done:
 
-    1. A service account has to be created in a project with access to the Google Drive API.
-       It's probably best to create a GCP project specifically just for access to the 
-       Google Drive API and create the service account in that project.  
-    2. The directory on Google Drive has to be shared with the service account.  This is
-       done by getting the e-mail of the service account and sharing with that e-mail 
-       instead of a real person's e-mail.
-    3. A private key (in JSON) has to be created for the service account.  The private key 
-       should be placed in an environment variable, SERVICE_ACCOUNT_KEY_JSON.  For
-       GitHub Actions, we can simply get the value from a secret of the same name.
+1. A service account has to be created in a project with access to the Google Drive API.  It's probably best to create a GCP project specifically just for access to the Google Drive API and create the service account in that project.  
+   - Here's some instructions on how to enable an API: https://support.google.com/googleapi/answer/6158841?hl=en.  When searching for the API to enable, simply search for `Google Drive`.
+   - Here's some instructions for creating a service account: https://cloud.google.com/iam/docs/service-accounts-create#iam-service-accounts-create-console.  Create it in the same project where the Google Drive API was enabled.
+
+2. The directory on Google Drive has to be shared with the service account.  This is done by getting the e-mail of the service account and sharing with that e-mail instead of a real person's e-mail.
+
+3. A private key (in JSON) has to be created for the service account.  The private key should be placed in an environment variable, SERVICE_ACCOUNT_KEY_JSON.  For GitHub Actions, we can simply get the value from a secret of the same name.
 
 If SERVICE_ACCOUNT_KEY_JSON is not set, the redacted files will be copied to the repository.
 
