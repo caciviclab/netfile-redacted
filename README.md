@@ -27,7 +27,13 @@ A test for downloading the redacted files to a download directory is run when th
 
 The upload and download can be tested locally by naming the key file as `.local/SERVICE_ACCOUNT_KEY_JSON.json`.  The `.local` directory is in the `.gitignore` file, so the file won't be checked in accidentally.
 
-## Redaction Configuration
+## Contributing Changes
+
+### Forking Required
+
+When this repository is set up to access the NetFile API, write access will be limited to protect the credentials used for NetFile.  To contribute changes, it will be necessary to fork the repository and submit a pull request from the forked repository.  Here is GitHub documentation about this process: https://docs.github.com/en/get-started/quickstart/fork-a-repo.  Only those who have access to the authoritative repository can be reviewers of the pull request.
+
+### Redaction Configuration
 
 To add new redactions or modify an existing one, simply modify the `config.yaml` file, which contains a list of paths to all the fields to redact for each type of data.
 
