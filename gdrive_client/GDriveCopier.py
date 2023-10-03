@@ -125,7 +125,7 @@ and a folder on Google Drive.
         if self.target_branch in branch_files:
             folder_id = branch_files[self.target_branch]['id']
         else:
-            drive_file = self.drive.CreateFile({'parents': [{'id': folder_id}], 'title':self.target_branch, 'mimeType':'application/vnd.google-apps.folder'})
+            drive_file = self.drive.CreateFile({'parents': [{'id': parent_folder_id}], 'title':self.target_branch, 'mimeType':'application/vnd.google-apps.folder'})
             drive_file.Upload()
             folder_id = drive_file['id']
         return folder_id
