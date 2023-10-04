@@ -13,9 +13,6 @@ class DataRetriever:
         if ((NETFILE_API_KEY != '') and (NETFILE_API_SECRET != '')) or os.path.exists('.env'):
             print(f'Making NetFile API calls')
             self.nf = NetFileClient(api_key='',api_secret='')
-
-        elif (REPO_OWNER != '') and (REPO_OWNER not in ['ChenglimEar']):
-            raise Exception('No NetFile credentials provided when expected')
         else:
             print(f'Simulating NetFile response since no credentials provided')
             self.nf = None
