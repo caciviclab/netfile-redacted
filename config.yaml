@@ -16,7 +16,15 @@ redaction_fields:
   - filerMeta.addressList.[].zip
   - filerMeta.emailList.[].address
   - filerMeta.phoneList.[].number
-  #transactions: []
+  transactions:
+  - addresses.[].line1
+  - addresses.[].line2
+  - addresses.[].zip
+  - addresses.[].latitude
+  - addresses.[].longitude
+  - transaction.tranAdr1
+  - transaction.tranAdr2
+  - transaction.tranZip4
   #filing_activities: []
-  #filing_elements: []
-  #elections: []
+  filing_elements: []
+  elections: []
