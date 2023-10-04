@@ -25,5 +25,5 @@ jobs:
         NETFILE_API_SECRET: ${{ secrets.NETFILE_API_SECRET }}
     - run: "python push_to_gdrive.py"
     - run: "python test_pull_from_gdrive.py"
-      if: ${{ env.REPO_OWNER == 'ChenglimEar' }} # Only test pull from Google Drive on developer fork
+      if: ${{ env.REPO_OWNER == 'caciviclab' }} # Only test pull from Google Drive on developer fork
 
