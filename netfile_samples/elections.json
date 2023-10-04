@@ -1,0 +1,4155 @@
+[
+  {
+    "electionNid": "200879019",
+    "aid": "COAK",
+    "electionDate": "2024-11-05",
+    "electionCaption": "11/5/2024 - General",
+    "isPublic": true,
+    "electionCodes": "General",
+    "measures": [],
+    "seats": [
+      {
+        "seatNid": "200879024",
+        "electionNid": "200879019",
+        "seatOfficeNid": "121709476",
+        "seatCaption": "City Council - City of Oakland - 7",
+        "officeName": "City Council - City of Oakland - 7"
+      }
+    ],
+    "candidates": [
+      {
+        "candidateNid": "151524242",
+        "candidateName": "Reid, Treva",
+        "seatNid": "200879024",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      }
+    ]
+  },
+  {
+    "electionNid": "178981824",
+    "aid": "COAK",
+    "electionDate": "2022-11-08",
+    "electionCaption": "11/8/2022 - General",
+    "isPublic": true,
+    "electionCodes": "General",
+    "measures": [
+      {
+        "measureNid": "204142876",
+        "electionNid": "178981824",
+        "measureNumber": "U",
+        "measureDescription": "Election: 11/8/2022 - Affordable Housing Infrastructure Bond-U"
+      },
+      {
+        "measureNid": "204535669",
+        "electionNid": "178981824",
+        "measureNumber": "Q",
+        "measureDescription": "Election: 11/8/2022 - Affordable Rental Development-Q"
+      },
+      {
+        "measureNid": "204535688",
+        "electionNid": "178981824",
+        "measureNumber": "S",
+        "measureDescription": "Election: 11/8/2022 - Authorize Noncitizen Residents to Vote for School Board-S"
+      },
+      {
+        "measureNid": "204142878",
+        "electionNid": "178981824",
+        "measureNumber": "V",
+        "measureDescription": "Election: 11/8/2022 - Expand Just Cause Eviction Ordinance-V"
+      },
+      {
+        "measureNid": "204535681",
+        "electionNid": "178981824",
+        "measureNumber": "R",
+        "measureDescription": "Election: 11/8/2022 - Gender Neutral Language-R"
+      },
+      {
+        "measureNid": "204142872",
+        "electionNid": "178981824",
+        "measureNumber": "X",
+        "measureDescription": "Election: 11/8/2022 - Good Governance - Council Term Limits-X"
+      },
+      {
+        "measureNid": "204142874",
+        "electionNid": "178981824",
+        "measureNumber": "W",
+        "measureDescription": "Election: 11/8/2022 - Oakland Fair Elections Public Financing-W"
+      },
+      {
+        "measureNid": "201993723",
+        "electionNid": "178981824",
+        "measureNumber": "T",
+        "measureDescription": "Election: 11/8/2022 - Oakland Progressive Business Tax-T"
+      },
+      {
+        "measureNid": "204459921",
+        "electionNid": "178981824",
+        "measureNumber": "H",
+        "measureDescription": "Election: 11/8/2022 - Oakland Unified School District parcel tax renewal-H"
+      },
+      {
+        "measureNid": "204142870",
+        "electionNid": "178981824",
+        "measureNumber": "Y",
+        "measureDescription": "Election: 11/8/2022 - Oakland Zoo Animal Care, Education, and Improvement-Y"
+      }
+    ],
+    "seats": [
+      {
+        "seatNid": "200910762",
+        "electionNid": "178981824",
+        "seatOfficeNid": "121709679",
+        "seatCaption": "City Auditor - City of Oakland",
+        "officeName": "City Auditor - City of Oakland"
+      },
+      {
+        "seatNid": "185276351",
+        "electionNid": "178981824",
+        "seatOfficeNid": "121709698",
+        "seatCaption": "City Council - City of Oakland - 2",
+        "officeName": "City Council - City of Oakland - 2"
+      },
+      {
+        "seatNid": "178982038",
+        "electionNid": "178981824",
+        "seatOfficeNid": "121709717",
+        "seatCaption": "City Council - City of Oakland - 4",
+        "officeName": "City Council - City of Oakland - 4"
+      },
+      {
+        "seatNid": "181523064",
+        "electionNid": "178981824",
+        "seatOfficeNid": "121709771",
+        "seatCaption": "City Council - City of Oakland - 6",
+        "officeName": "City Council - City of Oakland - 6"
+      },
+      {
+        "seatNid": "200910767",
+        "electionNid": "178981824",
+        "seatOfficeNid": "121710532",
+        "seatCaption": "Director - Oakland Unified School District - 2",
+        "officeName": "Director - Oakland Unified School District - 2"
+      },
+      {
+        "seatNid": "200910772",
+        "electionNid": "178981824",
+        "seatOfficeNid": "121709797",
+        "seatCaption": "Director - Oakland Unified School District - 4",
+        "officeName": "Director - Oakland Unified School District - 4"
+      },
+      {
+        "seatNid": "200910777",
+        "electionNid": "178981824",
+        "seatOfficeNid": "121709816",
+        "seatCaption": "Director - Oakland Unified School District - 6",
+        "officeName": "Director - Oakland Unified School District - 6"
+      },
+      {
+        "seatNid": "182704304",
+        "electionNid": "178981824",
+        "seatOfficeNid": "121709611",
+        "seatCaption": "Mayor - City of Oakland",
+        "officeName": "Mayor - City of Oakland"
+      }
+    ],
+    "candidates": [
+      {
+        "candidateNid": "204185548",
+        "candidateName": "Bachelor, Valarie",
+        "seatNid": "200910777",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "152070991",
+        "candidateName": "Bas, Nikki",
+        "seatNid": "185276351",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "204359743",
+        "candidateName": "Brouhard, Jennifer",
+        "seatNid": "200910767",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "204042232",
+        "candidateName": "Carter, Monesha",
+        "seatNid": "182704304",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "204360701",
+        "candidateName": "Dawson, Justin",
+        "seatNid": "182704304",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "121706688",
+        "candidateName": "De La Fuente, Ignacio",
+        "seatNid": "182704304",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "201243527",
+        "candidateName": "Gonzalez, Paulina",
+        "seatNid": "181523064",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "121706570",
+        "candidateName": "Hodge, Gregory",
+        "seatNid": "182704304",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "203955052",
+        "candidateName": "Hudson - Manigo, Pecolia",
+        "seatNid": "200910772",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "133174509",
+        "candidateName": "Hutchinson, Michael",
+        "seatNid": "200910772",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "204429458",
+        "candidateName": "Jeffries, Desmond",
+        "seatNid": "181523064",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "201646005",
+        "candidateName": "Jenkins, Kevin",
+        "seatNid": "181523064",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "190142499",
+        "candidateName": "Johnson, Derreck",
+        "seatNid": "182704304",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "204185173",
+        "candidateName": "Joiner, Lanenna \"Nenna\"",
+        "seatNid": "178982038",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "158244435",
+        "candidateName": "Jordan, Tyron",
+        "seatNid": "182704304",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "121710764",
+        "candidateName": "Kakishiba, David",
+        "seatNid": "200910767",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "150316698",
+        "candidateName": "Liu, Peter",
+        "seatNid": "182704304",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "204429415",
+        "candidateName": "Lowe, Harold",
+        "seatNid": "185276351",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "202005455",
+        "candidateName": "Marks, John",
+        "seatNid": "182704304",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "204429771",
+        "candidateName": "Mart, Bradley",
+        "seatNid": "178982038",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "204429862",
+        "candidateName": "Morgan, Tequila",
+        "seatNid": "182704304",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "203581406",
+        "candidateName": "Mungia, Kyra",
+        "seatNid": "200910777",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "204232995",
+        "candidateName": "Orozco, Maximo",
+        "seatNid": "200910767",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "202098985",
+        "candidateName": "Owens, Elbert",
+        "seatNid": "182704304",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "201330961",
+        "candidateName": "Ramachandran, Janani",
+        "seatNid": "178982038",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "151524242",
+        "candidateName": "Reid, Treva",
+        "seatNid": "182704304",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "201618906",
+        "candidateName": "Reimann, John",
+        "seatNid": "182704304",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "202521822",
+        "candidateName": "Resnick, Nick",
+        "seatNid": "200910772",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "204429594",
+        "candidateName": "Robinson, Julius Eric",
+        "seatNid": "182704304",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "121707589",
+        "candidateName": "Ruby, Courtney",
+        "seatNid": "200910762",
+        "isIncumbent": true,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "201182134",
+        "candidateName": "Schear, Stephen",
+        "seatNid": "182704304",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "191383725",
+        "candidateName": "Scott, Seneca",
+        "seatNid": "182704304",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "204429959",
+        "candidateName": "Session, Kenneth",
+        "seatNid": "181523064",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "121708210",
+        "candidateName": "Sidebotham, Nancy",
+        "seatNid": "181523064",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "182704312",
+        "candidateName": "Soo, Derrick",
+        "seatNid": "182704304",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "204056118",
+        "candidateName": "Tapia-Juarez, Jesse",
+        "seatNid": "181523064",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "167774163",
+        "candidateName": "Taylor, Loren",
+        "seatNid": "182704304",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "171131353",
+        "candidateName": "Thao, Sheng",
+        "seatNid": "182704304",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "204059824",
+        "candidateName": "Velasquez, Joel",
+        "seatNid": "200910777",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "200910635",
+        "candidateName": "Victory Villanueva, Allyssa",
+        "seatNid": "182704304",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "203464912",
+        "candidateName": "Webb, Rania",
+        "seatNid": "178982038",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "204054948",
+        "candidateName": "Zazaboi, Yakpasua",
+        "seatNid": "181523064",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      }
+    ]
+  },
+  {
+    "electionNid": "202684570",
+    "aid": "COAK",
+    "electionDate": "2022-06-07",
+    "electionCaption": "6/7/2022 - Special",
+    "isPublic": true,
+    "electionCodes": "Special",
+    "measures": [
+      {
+        "measureNid": "202684608",
+        "electionNid": "202684570",
+        "measureNumber": "C",
+        "measureDescription": "Election: 6/7/2022 - Library Ballot Measure-C"
+      }
+    ],
+    "seats": [
+      {
+        "seatNid": "203615940",
+        "electionNid": "202684570",
+        "seatOfficeNid": "203614683",
+        "seatCaption": "Supervisor District 3",
+        "officeName": "Supervisor District 3"
+      }
+    ],
+    "candidates": [
+      {
+        "candidateNid": "121706448",
+        "candidateName": "Kaplan, Rebecca",
+        "seatNid": "203615940",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      }
+    ]
+  },
+  {
+    "electionNid": "165189423",
+    "aid": "COAK",
+    "electionDate": "2020-11-03",
+    "electionCaption": "11/3/2020 - General",
+    "isPublic": true,
+    "electionCodes": "General",
+    "measures": [
+      {
+        "measureNid": "192118671",
+        "electionNid": "165189423",
+        "measureNumber": "SS",
+        "measureDescription": "Election: 11/3/2020 - Police Commission-SS"
+      },
+      {
+        "measureNid": "192245738",
+        "electionNid": "165189423",
+        "measureNumber": "RR",
+        "measureDescription": "Election: 11/3/2020 - Removing Fines Limits-RR"
+      },
+      {
+        "measureNid": "192118625",
+        "electionNid": "165189423",
+        "measureNumber": "Y",
+        "measureDescription": "Election: 11/3/2020 - School Facilities Bond-Y"
+      },
+      {
+        "measureNid": "191974116",
+        "electionNid": "165189423",
+        "measureNumber": "QQ",
+        "measureDescription": "Election: 11/3/2020 - Youth Voting-QQ"
+      }
+    ],
+    "seats": [
+      {
+        "seatNid": "188163037",
+        "electionNid": "165189423",
+        "seatOfficeNid": "121709381",
+        "seatCaption": "City Attorney - City of Oakland",
+        "officeName": "City Attorney - City of Oakland"
+      },
+      {
+        "seatNid": "180940134",
+        "electionNid": "165189423",
+        "seatOfficeNid": "121709393",
+        "seatCaption": "City Council - City of Oakland - 1",
+        "officeName": "City Council - City of Oakland - 1"
+      },
+      {
+        "seatNid": "179056849",
+        "electionNid": "165189423",
+        "seatOfficeNid": "121709414",
+        "seatCaption": "City Council - City of Oakland - 3",
+        "officeName": "City Council - City of Oakland - 3"
+      },
+      {
+        "seatNid": "185118005",
+        "electionNid": "165189423",
+        "seatOfficeNid": "121709440",
+        "seatCaption": "City Council - City of Oakland - 5",
+        "officeName": "City Council - City of Oakland - 5"
+      },
+      {
+        "seatNid": "165189453",
+        "electionNid": "165189423",
+        "seatOfficeNid": "121709476",
+        "seatCaption": "City Council - City of Oakland - 7",
+        "officeName": "City Council - City of Oakland - 7"
+      },
+      {
+        "seatNid": "181463558",
+        "electionNid": "165189423",
+        "seatOfficeNid": "121709365",
+        "seatCaption": "City Council Member At-Large - City of Oakland",
+        "officeName": "City Council Member At-Large - City of Oakland"
+      },
+      {
+        "seatNid": "180842880",
+        "electionNid": "165189423",
+        "seatOfficeNid": "121709529",
+        "seatCaption": "Director - Oakland Unified School District - 1",
+        "officeName": "Director - Oakland Unified School District - 1"
+      },
+      {
+        "seatNid": "182332482",
+        "electionNid": "165189423",
+        "seatOfficeNid": "121709556",
+        "seatCaption": "Director - Oakland Unified School District - 3",
+        "officeName": "Director - Oakland Unified School District - 3"
+      },
+      {
+        "seatNid": "186525998",
+        "electionNid": "165189423",
+        "seatOfficeNid": "121710529",
+        "seatCaption": "Director - Oakland Unified School District - 5",
+        "officeName": "Director - Oakland Unified School District - 5"
+      },
+      {
+        "seatNid": "172302093",
+        "electionNid": "165189423",
+        "seatOfficeNid": "121709575",
+        "seatCaption": "Director - Oakland Unified School District - 7",
+        "officeName": "Director - Oakland Unified School District - 7"
+      }
+    ],
+    "candidates": [
+      {
+        "candidateNid": "191295425",
+        "candidateName": "Clay, Aaron",
+        "seatNid": "165189453",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "191295895",
+        "candidateName": "Dannhaus, Austin",
+        "seatNid": "180842880",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "180842909",
+        "candidateName": "Davis, Benjamin \"Sam\"",
+        "seatNid": "180842880",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "180940148",
+        "candidateName": "Dominguez Walton, Stephanie",
+        "seatNid": "180940134",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "189811781",
+        "candidateName": "Edgerly, Maiya",
+        "seatNid": "182332482",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "190603323",
+        "candidateName": "Ferran, Elias",
+        "seatNid": "188163037",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "161700164",
+        "candidateName": "Fife, Carroll",
+        "seatNid": "179056849",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "191297469",
+        "candidateName": "Gaines, Leroy",
+        "seatNid": "186525998",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "121710635",
+        "candidateName": "Gallo, Noel",
+        "seatNid": "185118005",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "187659630",
+        "candidateName": "Gash, Cherisse",
+        "seatNid": "182332482",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "127149321",
+        "candidateName": "Gibson McElhaney, Lynette",
+        "seatNid": "179056849",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "121707226",
+        "candidateName": "Hodge, Marcie",
+        "seatNid": "165189453",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "182332512",
+        "candidateName": "Hurty, Mark",
+        "seatNid": "182332482",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "133174509",
+        "candidateName": "Hutchinson, Michael",
+        "seatNid": "186525998",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "178045887",
+        "candidateName": "Jackson, Robert",
+        "seatNid": "165189453",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "190142499",
+        "candidateName": "Johnson, Derreck",
+        "seatNid": "181463558",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "129453919",
+        "candidateName": "Kalb, Dan",
+        "seatNid": "180940134",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "121706448",
+        "candidateName": "Kaplan, Rebecca",
+        "seatNid": "181463558",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "186526051",
+        "candidateName": "Lawrence, Sheila",
+        "seatNid": "186525998",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "189891611",
+        "candidateName": "Lerma, Jorge",
+        "seatNid": "186525998",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "191671583",
+        "candidateName": "Lopez-Meraz, Zoe",
+        "seatNid": "185118005",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "166628948",
+        "candidateName": "Molina, Kristina",
+        "seatNid": "172302093",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "104",
+        "partyAffiliationName": "Democratic Party"
+      },
+      {
+        "candidateNid": "183836254",
+        "candidateName": "Ngo, Tri",
+        "seatNid": "180940134",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "129467329",
+        "candidateName": "Parker, Barbara",
+        "seatNid": "188163037",
+        "isIncumbent": true,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "190823252",
+        "candidateName": "Raya, Richard S.",
+        "seatNid": "185118005",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "151524242",
+        "candidateName": "Reid, Treva",
+        "seatNid": "165189453",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "191382078",
+        "candidateName": "Santana, Maximo",
+        "seatNid": "182332482",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "191383725",
+        "candidateName": "Scott, Seneca",
+        "seatNid": "179056849",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "190812862",
+        "candidateName": "Semedar, Meron",
+        "seatNid": "179056849",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "104",
+        "partyAffiliationName": "Democratic Party"
+      },
+      {
+        "candidateNid": "121708210",
+        "candidateName": "Sidebotham, Nancy",
+        "seatNid": "181463558",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "190793822",
+        "candidateName": "Tapscott, Ben",
+        "seatNid": "172302093",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "168644279",
+        "candidateName": "Tatmon, Marchon",
+        "seatNid": "165189453",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "104",
+        "partyAffiliationName": "Democratic Party"
+      },
+      {
+        "candidateNid": "191294914",
+        "candidateName": "Taylor, Alexus",
+        "seatNid": "179056849",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "191296935",
+        "candidateName": "Taylor, Bronche Jerard",
+        "seatNid": "172302093",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "186107958",
+        "candidateName": "Taylor, Faye",
+        "seatNid": "179056849",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "187321390",
+        "candidateName": "Thomas, Stacy",
+        "seatNid": "180842880",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "181562200",
+        "candidateName": "Thompson, Clifford",
+        "seatNid": "172302093",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "183504991",
+        "candidateName": "Valerio, Victor",
+        "seatNid": "172302093",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "190141104",
+        "candidateName": "Williams, Van Cedric",
+        "seatNid": "182332482",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      }
+    ]
+  },
+  {
+    "electionNid": "184269612",
+    "aid": "COAK",
+    "electionDate": "2020-03-03",
+    "electionCaption": "3/3/2020 - Special",
+    "isPublic": true,
+    "electionCodes": "Special",
+    "measures": [
+      {
+        "measureNid": "184296041",
+        "electionNid": "184269612",
+        "measureNumber": "S",
+        "measureDescription": "Election: 3/3/2020 - APPROPRIATIONS MEASURE-S"
+      },
+      {
+        "measureNid": "184295668",
+        "electionNid": "184269612",
+        "measureNumber": "R",
+        "measureDescription": "Election: 3/3/2020 - NEWSPAPER MEASURE-R"
+      },
+      {
+        "measureNid": "184012569",
+        "electionNid": "184269612",
+        "measureNumber": "Q",
+        "measureDescription": "Election: 3/3/2020 - PARKS MEASURE-Q"
+      }
+    ],
+    "seats": [],
+    "candidates": []
+  },
+  {
+    "electionNid": "155034677",
+    "aid": "COAK",
+    "electionDate": "2018-11-06",
+    "electionCaption": "11/6/2018 - General",
+    "isPublic": true,
+    "electionCodes": "General",
+    "measures": [
+      {
+        "measureNid": "169505264",
+        "electionNid": "155034677",
+        "measureNumber": "Z",
+        "measureDescription": "Election: 11/6/2018 - Hotel Employee Workplace Protections and Minimum Wage-Z"
+      },
+      {
+        "measureNid": "173741294",
+        "electionNid": "155034677",
+        "measureNumber": "Y",
+        "measureDescription": "Election: 11/6/2018 - Just Cause Eviction Amendment-Y"
+      },
+      {
+        "measureNid": "169465158",
+        "electionNid": "155034677",
+        "measureNumber": "AA",
+        "measureDescription": "Election: 11/6/2018 - Oakland Children's Initiative-AA"
+      },
+      {
+        "measureNid": "173900566",
+        "electionNid": "155034677",
+        "measureNumber": "X",
+        "measureDescription": "Election: 11/6/2018 - Tiered Real Property Transfer Tax-X"
+      },
+      {
+        "measureNid": "173741209",
+        "electionNid": "155034677",
+        "measureNumber": "W",
+        "measureDescription": "Election: 11/6/2018 - Vacant Property Tax-W"
+      }
+    ],
+    "seats": [
+      {
+        "seatNid": "166492982",
+        "electionNid": "155034677",
+        "seatOfficeNid": "121709679",
+        "seatCaption": "City Auditor - City of Oakland",
+        "officeName": "City Auditor - City of Oakland"
+      },
+      {
+        "seatNid": "164581038",
+        "electionNid": "155034677",
+        "seatOfficeNid": "121709698",
+        "seatCaption": "City Council - City of Oakland - 2",
+        "officeName": "City Council - City of Oakland - 2"
+      },
+      {
+        "seatNid": "155034679",
+        "electionNid": "155034677",
+        "seatOfficeNid": "121709717",
+        "seatCaption": "City Council - City of Oakland - 4",
+        "officeName": "City Council - City of Oakland - 4"
+      },
+      {
+        "seatNid": "166492969",
+        "electionNid": "155034677",
+        "seatOfficeNid": "121709771",
+        "seatCaption": "City Council - City of Oakland - 6",
+        "officeName": "City Council - City of Oakland - 6"
+      },
+      {
+        "seatNid": "166492995",
+        "electionNid": "155034677",
+        "seatOfficeNid": "121710532",
+        "seatCaption": "Director - Oakland Unified School District - 2",
+        "officeName": "Director - Oakland Unified School District - 2"
+      },
+      {
+        "seatNid": "166493004",
+        "electionNid": "155034677",
+        "seatOfficeNid": "121709797",
+        "seatCaption": "Director - Oakland Unified School District - 4",
+        "officeName": "Director - Oakland Unified School District - 4"
+      },
+      {
+        "seatNid": "166493020",
+        "electionNid": "155034677",
+        "seatOfficeNid": "121709816",
+        "seatCaption": "Director - Oakland Unified School District - 6",
+        "officeName": "Director - Oakland Unified School District - 6"
+      },
+      {
+        "seatNid": "164704809",
+        "electionNid": "155034677",
+        "seatOfficeNid": "121709611",
+        "seatCaption": "Mayor - City of Oakland",
+        "officeName": "Mayor - City of Oakland"
+      }
+    ],
+    "candidates": [
+      {
+        "candidateNid": "121708157",
+        "candidateName": "Brooks, Desley",
+        "seatNid": "166492969",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "150381016",
+        "candidateName": "Campbell Washington, Annie",
+        "seatNid": "155034679",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "171386365",
+        "candidateName": "Doutherd, Clarissa",
+        "seatNid": "166493004",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "151885465",
+        "candidateName": "Eng, Aimee",
+        "seatNid": "166492995",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "150090223",
+        "candidateName": "Gonzales, Shanthi",
+        "seatNid": "166493020",
+        "isIncumbent": true,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "151026012",
+        "candidateName": "Guillen, Abel",
+        "seatNid": "164581038",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "171200381",
+        "candidateName": "Harris, Pamela",
+        "seatNid": "155034679",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "151632069",
+        "candidateName": "Houston, Ken",
+        "seatNid": "164704809",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "161006347",
+        "candidateName": "Hummel, Francis",
+        "seatNid": "155034679",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "151560902",
+        "candidateName": "Karamooz, Saied",
+        "seatNid": "164704809",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "150316698",
+        "candidateName": "Liu, Peter",
+        "seatNid": "164704809",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "170948394",
+        "candidateName": "Maxson, Nayeli",
+        "seatNid": "155034679",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "171772116",
+        "candidateName": "Michelson, Charlie",
+        "seatNid": "155034679",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "169066589",
+        "candidateName": "Middleton, Natasha",
+        "seatNid": "166492969",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "170699404",
+        "candidateName": "Polk, Sheilagh",
+        "seatNid": "164704809",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "172570623",
+        "candidateName": "Price, Pamela",
+        "seatNid": "164704809",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "151823472",
+        "candidateName": "Roberts, Brenda",
+        "seatNid": "166492982",
+        "isIncumbent": true,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "169350948",
+        "candidateName": "Rodriguez, Maria",
+        "seatNid": "166492969",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "121707589",
+        "candidateName": "Ruby, Courtney",
+        "seatNid": "166492982",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "121708068",
+        "candidateName": "Schaaf, Libby",
+        "seatNid": "164704809",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "121708210",
+        "candidateName": "Sidebotham, Nancy",
+        "seatNid": "164704809",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "171468716",
+        "candidateName": "Simmons, Joseph",
+        "seatNid": "155034679",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "172248744",
+        "candidateName": "Smith, Carlos \"Kenzie\"",
+        "seatNid": "164581038",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "169499011",
+        "candidateName": "Smith, Jesse A.J.",
+        "seatNid": "164704809",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "170970418",
+        "candidateName": "Tanios, Joseph",
+        "seatNid": "155034679",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "168644279",
+        "candidateName": "Tatmon, Marchon",
+        "seatNid": "164704809",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "104",
+        "partyAffiliationName": "Democratic Party"
+      },
+      {
+        "candidateNid": "167774163",
+        "candidateName": "Taylor, Loren",
+        "seatNid": "166492969",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "171131353",
+        "candidateName": "Thao, Sheng",
+        "seatNid": "155034679",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "168117033",
+        "candidateName": "Troupe, Cedric",
+        "seatNid": "164704809",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "169370590",
+        "candidateName": "Whitaker, Mya",
+        "seatNid": "166492969",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "121708270",
+        "candidateName": "Yee, Gary",
+        "seatNid": "166493004",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      }
+    ]
+  },
+  {
+    "electionNid": "169976079",
+    "aid": "COAK",
+    "electionDate": "2018-06-05",
+    "electionCaption": "6/5/2018 - Primary",
+    "isPublic": true,
+    "electionCodes": "Primary",
+    "measures": [
+      {
+        "measureNid": "166492499",
+        "electionNid": "169976079",
+        "measureNumber": "D",
+        "measureDescription": "Election: 6/5/2018 - Library Parcel Tax-D"
+      }
+    ],
+    "seats": [],
+    "candidates": []
+  },
+  {
+    "electionNid": "151524138",
+    "aid": "COAK",
+    "electionDate": "2016-11-08",
+    "electionCaption": "11/8/2016 - General",
+    "isPublic": true,
+    "electionCodes": "General",
+    "measures": [
+      {
+        "measureNid": "160489338",
+        "electionNid": "151524138",
+        "measureNumber": "JJ",
+        "measureDescription": "Election: 11/8/2016 - Amendments to Oakland's Residential Rent Adjustments-JJ"
+      },
+      {
+        "measureNid": "161949338",
+        "electionNid": "151524138",
+        "measureNumber": "G1",
+        "measureDescription": "Election: 11/8/2016 - Districtwide Teacher Retention and Middle School Improvement Act-G1"
+      },
+      {
+        "measureNid": "161720927",
+        "electionNid": "151524138",
+        "measureNumber": "LL",
+        "measureDescription": "Election: 11/8/2016 - Establishing a Police Commission to Oversee Policies and Procedures-LL"
+      },
+      {
+        "measureNid": "161913722",
+        "electionNid": "151524138",
+        "measureNumber": "KK",
+        "measureDescription": "Election: 11/8/2016 - Infrastructure Bond Ballot Measure-KK"
+      },
+      {
+        "measureNid": "157907346",
+        "electionNid": "151524138",
+        "measureNumber": "HH",
+        "measureDescription": "Election: 11/8/2016 - Sugar Sweetened Beverage Tax-HH"
+      }
+    ],
+    "seats": [
+      {
+        "seatNid": "158542718",
+        "electionNid": "151524138",
+        "seatOfficeNid": "121709381",
+        "seatCaption": "City Attorney - City of Oakland",
+        "officeName": "City Attorney - City of Oakland"
+      },
+      {
+        "seatNid": "158913308",
+        "electionNid": "151524138",
+        "seatOfficeNid": "121709393",
+        "seatCaption": "City Council - City of Oakland - 1",
+        "officeName": "City Council - City of Oakland - 1"
+      },
+      {
+        "seatNid": "154898194",
+        "electionNid": "151524138",
+        "seatOfficeNid": "121709414",
+        "seatCaption": "City Council - City of Oakland - 3",
+        "officeName": "City Council - City of Oakland - 3"
+      },
+      {
+        "seatNid": "160120166",
+        "electionNid": "151524138",
+        "seatOfficeNid": "121709440",
+        "seatCaption": "City Council - City of Oakland - 5",
+        "officeName": "City Council - City of Oakland - 5"
+      },
+      {
+        "seatNid": "151524213",
+        "electionNid": "151524138",
+        "seatOfficeNid": "121709476",
+        "seatCaption": "City Council - City of Oakland - 7",
+        "officeName": "City Council - City of Oakland - 7"
+      },
+      {
+        "seatNid": "157906596",
+        "electionNid": "151524138",
+        "seatOfficeNid": "121709365",
+        "seatCaption": "City Council Member At-Large - City of Oakland",
+        "officeName": "City Council Member At-Large - City of Oakland"
+      },
+      {
+        "seatNid": "160119255",
+        "electionNid": "151524138",
+        "seatOfficeNid": "121709529",
+        "seatCaption": "Director - Oakland Unified School District - 1",
+        "officeName": "Director - Oakland Unified School District - 1"
+      },
+      {
+        "seatNid": "158306542",
+        "electionNid": "151524138",
+        "seatOfficeNid": "121709556",
+        "seatCaption": "Director - Oakland Unified School District - 3",
+        "officeName": "Director - Oakland Unified School District - 3"
+      },
+      {
+        "seatNid": "158272040",
+        "electionNid": "151524138",
+        "seatOfficeNid": "121710529",
+        "seatCaption": "Director - Oakland Unified School District - 5",
+        "officeName": "Director - Oakland Unified School District - 5"
+      },
+      {
+        "seatNid": "160119785",
+        "electionNid": "151524138",
+        "seatOfficeNid": "121709575",
+        "seatCaption": "Director - Oakland Unified School District - 7",
+        "officeName": "Director - Oakland Unified School District - 7"
+      }
+    ],
+    "candidates": [
+      {
+        "candidateNid": "160975109",
+        "candidateName": "Brown, Alan",
+        "seatNid": "154898194",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "161119296",
+        "candidateName": "Cabello, Manuel",
+        "seatNid": "157906596",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "160575184",
+        "candidateName": "Corbett, Kevin",
+        "seatNid": "158913308",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "161507578",
+        "candidateName": "Cross, Misty",
+        "seatNid": "158306542",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "160863656",
+        "candidateName": "De Jimenez, Olivia",
+        "seatNid": "151524213",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "160977515",
+        "candidateName": "Ellis, Patricia",
+        "seatNid": "157906596",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "121710635",
+        "candidateName": "Gallo, Noel",
+        "seatNid": "160120166",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "127149321",
+        "candidateName": "Gibson McElhaney, Lynette",
+        "seatNid": "154898194",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "160874539",
+        "candidateName": "Gonzales, Viola",
+        "seatNid": "160120166",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "129750902",
+        "candidateName": "Harris, James",
+        "seatNid": "160119785",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "161005874",
+        "candidateName": "Hassid, Michael",
+        "seatNid": "158272040",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "121707011",
+        "candidateName": "Hodge, Jumoke Hinton",
+        "seatNid": "158306542",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "121707226",
+        "candidateName": "Hodge, Marcie",
+        "seatNid": "151524213",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "132414534",
+        "candidateName": "Hodges, Robyn",
+        "seatNid": "154898194",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "161006347",
+        "candidateName": "Hummel, Francis",
+        "seatNid": "157906596",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "133174509",
+        "candidateName": "Hutchinson, Michael",
+        "seatNid": "158272040",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "160119970",
+        "candidateName": "Jackson, Chris",
+        "seatNid": "160119785",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "158244435",
+        "candidateName": "Jordan, Tyron",
+        "seatNid": "154898194",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "129453919",
+        "candidateName": "Kalb, Dan",
+        "seatNid": "158913308",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "121706448",
+        "candidateName": "Kaplan, Rebecca",
+        "seatNid": "157906596",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "151560902",
+        "candidateName": "Karamooz, Saied",
+        "seatNid": "154898194",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "160479284",
+        "candidateName": "Lang, Benjamin",
+        "seatNid": "158306542",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "160820560",
+        "candidateName": "lmara, Nehanda",
+        "seatNid": "151524213",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "121706925",
+        "candidateName": "London, Jody",
+        "seatNid": "160119255",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "121707302",
+        "candidateName": "Macleay, Donald",
+        "seatNid": "160119255",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "160975304",
+        "candidateName": "McNeal, Anthony",
+        "seatNid": "154898194",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "130838424",
+        "candidateName": "Menjivar, Randy",
+        "seatNid": "158272040",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "161090189",
+        "candidateName": "Moore, Margaret",
+        "seatNid": "157906596",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "161507465",
+        "candidateName": "Narain, Lucky",
+        "seatNid": "158306542",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "157907689",
+        "candidateName": "Oliver-Benson, Maxine",
+        "seatNid": "151524213",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "129467329",
+        "candidateName": "Parker, Barbara",
+        "seatNid": "158542718",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "160879775",
+        "candidateName": "Quan, Bruce",
+        "seatNid": "157906596",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "121706806",
+        "candidateName": "Reid, Larry",
+        "seatNid": "151524213",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "151524242",
+        "candidateName": "Reid, Treva",
+        "seatNid": "151524213",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "160819412",
+        "candidateName": "Session, Noni",
+        "seatNid": "154898194",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "121708210",
+        "candidateName": "Sidebotham, Nancy",
+        "seatNid": "157906596",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "134379082",
+        "candidateName": "Torres, Roseann",
+        "seatNid": "158272040",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "160574019",
+        "candidateName": "Trenado, Huber",
+        "seatNid": "158272040",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "160820807",
+        "candidateName": "Wiginton, Kharyshi",
+        "seatNid": "158306542",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "121707481",
+        "candidateName": "Young, Jr., Larry",
+        "seatNid": "157906596",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      }
+    ]
+  },
+  {
+    "electionNid": "152889535",
+    "aid": "COAK",
+    "electionDate": "2014-11-04",
+    "electionCaption": "11/4/2014 - General",
+    "isPublic": true,
+    "electionCodes": "General",
+    "measures": [
+      {
+        "measureNid": "181676899",
+        "electionNid": "152889535",
+        "measureNumber": "Z",
+        "measureDescription": "Election: 11/4/2014 - City of Oakland Police Services Parcel Tax and Parking Tax-Z"
+      },
+      {
+        "measureNid": "152470013",
+        "electionNid": "152889535",
+        "measureNumber": "CC",
+        "measureDescription": "Election: 11/4/2014 - To provide the PEC greater independence, enforcement, budget for staffing-CC"
+      }
+    ],
+    "seats": [
+      {
+        "seatNid": "182773061",
+        "electionNid": "152889535",
+        "seatOfficeNid": "121709698",
+        "seatCaption": "City Council - City of Oakland - 2",
+        "officeName": "City Council - City of Oakland - 2"
+      },
+      {
+        "seatNid": "155441930",
+        "electionNid": "152889535",
+        "seatOfficeNid": "121709365",
+        "seatCaption": "City Council Member At-Large - City of Oakland",
+        "officeName": "City Council Member At-Large - City of Oakland"
+      },
+      {
+        "seatNid": "155782633",
+        "electionNid": "152889535",
+        "seatOfficeNid": "121709611",
+        "seatCaption": "Mayor - City of Oakland",
+        "officeName": "Mayor - City of Oakland"
+      }
+    ],
+    "candidates": [
+      {
+        "candidateNid": "149844544",
+        "candidateName": "Anderson, Jason ''Shake''",
+        "seatNid": "155782633",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "150317692",
+        "candidateName": "Blackburn, Kevin",
+        "seatNid": "182773061",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "151026012",
+        "candidateName": "Guillen, Abel",
+        "seatNid": "182773061",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "151632069",
+        "candidateName": "Houston, Ken",
+        "seatNid": "155782633",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "121706448",
+        "candidateName": "Kaplan, Rebecca",
+        "seatNid": "155782633",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "121706448",
+        "candidateName": "Kaplan, Rebecca",
+        "seatNid": "155441930",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "151560902",
+        "candidateName": "Karamooz, Saied",
+        "seatNid": "155782633",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "149722364",
+        "candidateName": "King, Dana",
+        "seatNid": "182773061",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "150316698",
+        "candidateName": "Liu, Peter",
+        "seatNid": "155782633",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "152269578",
+        "candidateName": "Maxey, Ken",
+        "seatNid": "182773061",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "121706540",
+        "candidateName": "McCullough, Patrick",
+        "seatNid": "155782633",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "149845769",
+        "candidateName": "Park, Andrew",
+        "seatNid": "182773061",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "142085404",
+        "candidateName": "Parker, Bryan",
+        "seatNid": "155782633",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "121707451",
+        "candidateName": "Quan, Jean",
+        "seatNid": "155782633",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "121707589",
+        "candidateName": "Ruby, Courtney",
+        "seatNid": "155782633",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "121708068",
+        "candidateName": "Schaaf, Libby",
+        "seatNid": "155782633",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "121708210",
+        "candidateName": "Sidebotham, Nancy",
+        "seatNid": "155782633",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "128869761",
+        "candidateName": "Siegel, Dan",
+        "seatNid": "155782633",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "121707384",
+        "candidateName": "Tuman, Joseph",
+        "seatNid": "155782633",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "150274918",
+        "candidateName": "Williams, Charles",
+        "seatNid": "155782633",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "151554748",
+        "candidateName": "Wilson, Eric",
+        "seatNid": "155782633",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      }
+    ]
+  },
+  {
+    "electionNid": "146448450",
+    "aid": "COAK",
+    "electionDate": "2013-11-13",
+    "electionCaption": "11/13/2013 - Special",
+    "isPublic": true,
+    "electionCodes": "Special",
+    "measures": [
+      {
+        "measureNid": "146999269",
+        "electionNid": "146448450",
+        "measureNumber": "A",
+        "measureDescription": "Election: 11/13/2013 - Community Facilities District No. 2013-1-A"
+      }
+    ],
+    "seats": [],
+    "candidates": []
+  },
+  {
+    "electionNid": "149330749",
+    "aid": "COAK",
+    "electionDate": "2013-11-05",
+    "electionCaption": "11/5/2013 - General",
+    "isPublic": false,
+    "electionCodes": "General",
+    "measures": [],
+    "seats": [
+      {
+        "seatNid": "149330770",
+        "electionNid": "149330749",
+        "seatOfficeNid": "121709679",
+        "seatCaption": "City Auditor - City of Oakland",
+        "officeName": "City Auditor - City of Oakland"
+      }
+    ],
+    "candidates": [
+      {
+        "candidateNid": "149330975",
+        "candidateName": "Thomas, Tamika",
+        "seatNid": "149330770",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      }
+    ]
+  },
+  {
+    "electionNid": "125088328",
+    "aid": "COAK",
+    "electionDate": "2012-11-06",
+    "electionCaption": "11/6/2012 - General",
+    "isPublic": true,
+    "electionCodes": "General",
+    "measures": [
+      {
+        "measureNid": "130714968",
+        "electionNid": "125088328",
+        "measureNumber": "TBD",
+        "measureDescription": "Election: 11/6/2012 - Alameda County Transportation Improvement Measure Reauthorization-TBD"
+      },
+      {
+        "measureNid": "135208820",
+        "electionNid": "125088328",
+        "measureNumber": "A1",
+        "measureDescription": "Election: 11/6/2012 - OAKLAND ZOO HUMANE ANIMAL CARE/EDUCATION PROTECTION-A1"
+      }
+    ],
+    "seats": [
+      {
+        "seatNid": "125690746",
+        "electionNid": "125088328",
+        "seatOfficeNid": "121709381",
+        "seatCaption": "City Attorney - City of Oakland",
+        "officeName": "City Attorney - City of Oakland"
+      },
+      {
+        "seatNid": "128811826",
+        "electionNid": "125088328",
+        "seatOfficeNid": "121709393",
+        "seatCaption": "City Council - City of Oakland - 1",
+        "officeName": "City Council - City of Oakland - 1"
+      },
+      {
+        "seatNid": "125088337",
+        "electionNid": "125088328",
+        "seatOfficeNid": "121709414",
+        "seatCaption": "City Council - City of Oakland - 3",
+        "officeName": "City Council - City of Oakland - 3"
+      },
+      {
+        "seatNid": "130590068",
+        "electionNid": "125088328",
+        "seatOfficeNid": "121709440",
+        "seatCaption": "City Council - City of Oakland - 5",
+        "officeName": "City Council - City of Oakland - 5"
+      },
+      {
+        "seatNid": "129471500",
+        "electionNid": "125088328",
+        "seatOfficeNid": "121709476",
+        "seatCaption": "City Council - City of Oakland - 7",
+        "officeName": "City Council - City of Oakland - 7"
+      },
+      {
+        "seatNid": "126388868",
+        "electionNid": "125088328",
+        "seatOfficeNid": "121709365",
+        "seatCaption": "City Council Member At-Large - City of Oakland",
+        "officeName": "City Council Member At-Large - City of Oakland"
+      },
+      {
+        "seatNid": "132418708",
+        "electionNid": "125088328",
+        "seatOfficeNid": "121709529",
+        "seatCaption": "Director - Oakland Unified School District - 1",
+        "officeName": "Director - Oakland Unified School District - 1"
+      },
+      {
+        "seatNid": "125690748",
+        "electionNid": "125088328",
+        "seatOfficeNid": "121709556",
+        "seatCaption": "Director - Oakland Unified School District - 3",
+        "officeName": "Director - Oakland Unified School District - 3"
+      },
+      {
+        "seatNid": "131466380",
+        "electionNid": "125088328",
+        "seatOfficeNid": "121710529",
+        "seatCaption": "Director - Oakland Unified School District - 5",
+        "officeName": "Director - Oakland Unified School District - 5"
+      },
+      {
+        "seatNid": "129750494",
+        "electionNid": "125088328",
+        "seatOfficeNid": "121709575",
+        "seatCaption": "Director - Oakland Unified School District - 7",
+        "officeName": "Director - Oakland Unified School District - 7"
+      },
+      {
+        "seatNid": "126391169",
+        "electionNid": "125088328",
+        "seatOfficeNid": "121709611",
+        "seatCaption": "Mayor - City of Oakland",
+        "officeName": "Mayor - City of Oakland"
+      }
+    ],
+    "candidates": [
+      {
+        "candidateNid": "130372138",
+        "candidateName": "Anderson, Theresa",
+        "seatNid": "126388868",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "107",
+        "partyAffiliationName": "Green Party"
+      },
+      {
+        "candidateNid": "128811848",
+        "candidateName": "Brandt, Craig",
+        "seatNid": "128811826",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "121706510",
+        "candidateName": "Brunner, Jane",
+        "seatNid": "125690746",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "130751309",
+        "candidateName": "Cruz, Vicente",
+        "seatNid": "125690748",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "121706688",
+        "candidateName": "De La Fuente, Ignacio",
+        "seatNid": "126391169",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "121706688",
+        "candidateName": "De La Fuente, Ignacio",
+        "seatNid": "126388868",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "129452995",
+        "candidateName": "DeWitt, Nyeisha",
+        "seatNid": "125088337",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "128869385",
+        "candidateName": "Eaves, Damon",
+        "seatNid": "125088337",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "132412455",
+        "candidateName": "Franklin, Bob",
+        "seatNid": "128811826",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "121706650",
+        "candidateName": "Fuentes, Richard",
+        "seatNid": "125690748",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "121710635",
+        "candidateName": "Gallo, Noel",
+        "seatNid": "130590068",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "130590116",
+        "candidateName": "Garza, Shelly",
+        "seatNid": "130590068",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "104",
+        "partyAffiliationName": "Democratic Party"
+      },
+      {
+        "candidateNid": "127149321",
+        "candidateName": "Gibson McElhaney, Lynette",
+        "seatNid": "125088337",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "129750902",
+        "candidateName": "Harris, James",
+        "seatNid": "129750494",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "121706570",
+        "candidateName": "Hodge, Gregory",
+        "seatNid": "125088337",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "121707011",
+        "candidateName": "Hodge, Jumoke Hinton",
+        "seatNid": "125690748",
+        "isIncumbent": true,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "133174509",
+        "candidateName": "Hutchinson, Michael",
+        "seatNid": "131466380",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "121706716",
+        "candidateName": "Juarez, Mario",
+        "seatNid": "130590068",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "129453919",
+        "candidateName": "Kalb, Dan",
+        "seatNid": "128811826",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "121706448",
+        "candidateName": "Kaplan, Rebecca",
+        "seatNid": "126388868",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "129462878",
+        "candidateName": "Karchmer, Joanne",
+        "seatNid": "128811826",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "132413938",
+        "candidateName": "Lemley, Amy",
+        "seatNid": "128811826",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "130372724",
+        "candidateName": "Link, Gordon",
+        "seatNid": "128811826",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "121706925",
+        "candidateName": "London, Jody",
+        "seatNid": "132418708",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "121707302",
+        "candidateName": "Macleay, Donald",
+        "seatNid": "128811826",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "135737588",
+        "candidateName": "McMahan, Dawn",
+        "seatNid": "130590068",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "130838424",
+        "candidateName": "Menjivar, Randy",
+        "seatNid": "129471500",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "130556881",
+        "candidateName": "Miller-Cole, Alex",
+        "seatNid": "125088337",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "124",
+        "partyAffiliationName": "None"
+      },
+      {
+        "candidateNid": "127138793",
+        "candidateName": "Muhammad, Derrick",
+        "seatNid": "125088337",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "129467329",
+        "candidateName": "Parker, Barbara",
+        "seatNid": "125690746",
+        "isIncumbent": true,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "135145229",
+        "candidateName": "Pecot, Thearse",
+        "seatNid": "132418708",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "130750960",
+        "candidateName": "Polk, Sheilagh",
+        "seatNid": "125690748",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "121706560",
+        "candidateName": "Raphael, Leonard",
+        "seatNid": "128811826",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "129471162",
+        "candidateName": "Raya, Richard",
+        "seatNid": "128811826",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "121706806",
+        "candidateName": "Reid, Larry",
+        "seatNid": "129471500",
+        "isIncumbent": true,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "131466403",
+        "candidateName": "Reiss, Cynthia",
+        "seatNid": "131466380",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "121707101",
+        "candidateName": "Spearman, Alice",
+        "seatNid": "129750494",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "121706630",
+        "candidateName": "Sullivan, Sean",
+        "seatNid": "125088337",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "134932992",
+        "candidateName": "Tolbert, Carol Lee",
+        "seatNid": "126388868",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "134379082",
+        "candidateName": "Torres, Roseann",
+        "seatNid": "131466380",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "121707384",
+        "candidateName": "Tuman, Joseph",
+        "seatNid": "126388868",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "104",
+        "partyAffiliationName": "Democratic Party"
+      },
+      {
+        "candidateNid": "132415332",
+        "candidateName": "Walton, Sheryl",
+        "seatNid": "129471500",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "121707551",
+        "candidateName": "Young Jr., Larry Lionel",
+        "seatNid": "125088337",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      }
+    ]
+  },
+  {
+    "electionNid": "129281938",
+    "aid": "COAK",
+    "electionDate": "2012-06-05",
+    "electionCaption": "6/5/2012 - Primary",
+    "isPublic": true,
+    "electionCodes": "Primary",
+    "measures": [],
+    "seats": [],
+    "candidates": []
+  },
+  {
+    "electionNid": "121709601",
+    "aid": "COAK",
+    "electionDate": "2010-11-02",
+    "electionCaption": "11/2/2010 - General",
+    "isPublic": true,
+    "electionCodes": "General",
+    "measures": [
+      {
+        "measureNid": "121709609",
+        "electionNid": "121709601",
+        "measureNumber": "BB",
+        "measureDescription": "Election: 11/2/2010 - Measure BB a.k.a Y-BB"
+      },
+      {
+        "measureNid": "121709603",
+        "electionNid": "121709601",
+        "measureNumber": "V",
+        "measureDescription": "Election: 11/2/2010 - Measure V: Shall the Oakland Municipal Code be amended to increase the business tax rate for “Medical Cannabis Businesses”-V"
+      },
+      {
+        "measureNid": "121709605",
+        "electionNid": "121709601",
+        "measureNumber": "W",
+        "measureDescription": "Election: 11/2/2010 - Measure W-W"
+      },
+      {
+        "measureNid": "121709607",
+        "electionNid": "121709601",
+        "measureNumber": "X",
+        "measureDescription": "Election: 11/2/2010 - Measure X-X"
+      }
+    ],
+    "seats": [
+      {
+        "seatNid": "121709682",
+        "electionNid": "121709601",
+        "seatOfficeNid": "121709679",
+        "seatCaption": "City Auditor - City of Oakland",
+        "officeName": "City Auditor - City of Oakland"
+      },
+      {
+        "seatNid": "121709701",
+        "electionNid": "121709601",
+        "seatOfficeNid": "121709698",
+        "seatCaption": "City Council - City of Oakland - 2",
+        "officeName": "City Council - City of Oakland - 2"
+      },
+      {
+        "seatNid": "121709720",
+        "electionNid": "121709601",
+        "seatOfficeNid": "121709717",
+        "seatCaption": "City Council - City of Oakland - 4",
+        "officeName": "City Council - City of Oakland - 4"
+      },
+      {
+        "seatNid": "121709774",
+        "electionNid": "121709601",
+        "seatOfficeNid": "121709771",
+        "seatCaption": "City Council - City of Oakland - 6",
+        "officeName": "City Council - City of Oakland - 6"
+      },
+      {
+        "seatNid": "121710745",
+        "electionNid": "121709601",
+        "seatOfficeNid": "121710532",
+        "seatCaption": "Director - Oakland Unified School District - 2",
+        "officeName": "Director - Oakland Unified School District - 2"
+      },
+      {
+        "seatNid": "121709800",
+        "electionNid": "121709601",
+        "seatOfficeNid": "121709797",
+        "seatCaption": "Director - Oakland Unified School District - 4",
+        "officeName": "Director - Oakland Unified School District - 4"
+      },
+      {
+        "seatNid": "121709819",
+        "electionNid": "121709601",
+        "seatOfficeNid": "121709816",
+        "seatCaption": "Director - Oakland Unified School District - 6",
+        "officeName": "Director - Oakland Unified School District - 6"
+      },
+      {
+        "seatNid": "121709614",
+        "electionNid": "121709601",
+        "seatOfficeNid": "121709611",
+        "seatCaption": "Mayor - City of Oakland",
+        "officeName": "Mayor - City of Oakland"
+      }
+    ],
+    "candidates": [
+      {
+        "candidateNid": "121707703",
+        "candidateName": "Broadhurst, Jill",
+        "seatNid": "121709720",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "121708157",
+        "candidateName": "Brooks, Desley",
+        "seatNid": "121709774",
+        "isIncumbent": false,
+        "isWinner": true,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "121707157",
+        "candidateName": "Candell, Terence",
+        "seatNid": "121709614",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "127738890",
+        "candidateName": "Davis, Celia",
+        "seatNid": "121709800",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "127739313",
+        "candidateName": "Dillard Smith, Maya",
+        "seatNid": "121709614",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "121708300",
+        "candidateName": "Dobbins, Christoper",
+        "seatNid": "121709819",
+        "isIncumbent": false,
+        "isWinner": true,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "121706736",
+        "candidateName": "Dorado, Jose",
+        "seatNid": "121709774",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "121710486",
+        "candidateName": "Fields, Arnie",
+        "seatNid": "121709614",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "121707877",
+        "candidateName": "Gillian, Jason",
+        "seatNid": "121709720",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "121707196",
+        "candidateName": "Harland, Greg",
+        "seatNid": "121709614",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "121707226",
+        "candidateName": "Hodge, Marcie",
+        "seatNid": "121709614",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "127737047",
+        "candidateName": "Jackson, Scott",
+        "seatNid": "121709720",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "121710764",
+        "candidateName": "Kakishiba, David",
+        "seatNid": "121710745",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "121707907",
+        "candidateName": "Kanz, Ralph",
+        "seatNid": "121709720",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "121706448",
+        "candidateName": "Kaplan, Rebecca",
+        "seatNid": "121709614",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "121707619",
+        "candidateName": "Kernighan, Patricia",
+        "seatNid": "121709701",
+        "isIncumbent": false,
+        "isWinner": true,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "121707561",
+        "candidateName": "Kilian, Michael",
+        "seatNid": "121709682",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "121706837",
+        "candidateName": "Killian, Clinton",
+        "seatNid": "121709720",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "121707302",
+        "candidateName": "Macleay, Donald",
+        "seatNid": "121709614",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "121707673",
+        "candidateName": "Pae, Jennifer",
+        "seatNid": "121709701",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "121707354",
+        "candidateName": "Perata, Don",
+        "seatNid": "121709614",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "121707451",
+        "candidateName": "Quan, Jean",
+        "seatNid": "121709614",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "121707589",
+        "candidateName": "Ruby, Courtney",
+        "seatNid": "121709682",
+        "isIncumbent": false,
+        "isWinner": true,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "121708068",
+        "candidateName": "Schaaf, Libby",
+        "seatNid": "121709720",
+        "isIncumbent": false,
+        "isWinner": true,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "121708098",
+        "candidateName": "Shelby, Melanie",
+        "seatNid": "121709720",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "121708210",
+        "candidateName": "Sidebotham, Nancy",
+        "seatNid": "121709774",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "121708127",
+        "candidateName": "Swafford, Danial",
+        "seatNid": "121709720",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "121707384",
+        "candidateName": "Tuman, Joseph",
+        "seatNid": "121709614",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "121708240",
+        "candidateName": "Visnick, Benjamin",
+        "seatNid": "121709800",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "121708270",
+        "candidateName": "Yee, Gary",
+        "seatNid": "121709800",
+        "isIncumbent": false,
+        "isWinner": true,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "121707481",
+        "candidateName": "Young, Jr., Larry",
+        "seatNid": "121709614",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      }
+    ]
+  },
+  {
+    "electionNid": "128869701",
+    "aid": "COAK",
+    "electionDate": "2010-11-02",
+    "electionCaption": "11/2/2010 - General",
+    "isPublic": false,
+    "electionCodes": "Special",
+    "measures": [
+      {
+        "measureNid": "150450353",
+        "electionNid": "128869701",
+        "measureNumber": "TBD",
+        "measureDescription": "Election: 11/2/2010 - Establishing a min wage, requiring payment for accrued sick leave an requiring payment for service charges to hospitality workers-TBD"
+      }
+    ],
+    "seats": [
+      {
+        "seatNid": "151823449",
+        "electionNid": "128869701",
+        "seatOfficeNid": "121709679",
+        "seatCaption": "City Auditor - City of Oakland",
+        "officeName": "City Auditor - City of Oakland"
+      },
+      {
+        "seatNid": "148866485",
+        "electionNid": "128869701",
+        "seatOfficeNid": "121709698",
+        "seatCaption": "City Council - City of Oakland - 2",
+        "officeName": "City Council - City of Oakland - 2"
+      },
+      {
+        "seatNid": "143314006",
+        "electionNid": "128869701",
+        "seatOfficeNid": "121709717",
+        "seatCaption": "City Council - City of Oakland - 4",
+        "officeName": "City Council - City of Oakland - 4"
+      },
+      {
+        "seatNid": "144854433",
+        "electionNid": "128869701",
+        "seatOfficeNid": "121709771",
+        "seatCaption": "City Council - City of Oakland - 6",
+        "officeName": "City Council - City of Oakland - 6"
+      },
+      {
+        "seatNid": "151885447",
+        "electionNid": "128869701",
+        "seatOfficeNid": "121710532",
+        "seatCaption": "Director - Oakland Unified School District - 2",
+        "officeName": "Director - Oakland Unified School District - 2"
+      },
+      {
+        "seatNid": "151260438",
+        "electionNid": "128869701",
+        "seatOfficeNid": "121709797",
+        "seatCaption": "Director - Oakland Unified School District - 4",
+        "officeName": "Director - Oakland Unified School District - 4"
+      },
+      {
+        "seatNid": "150089670",
+        "electionNid": "128869701",
+        "seatOfficeNid": "121709816",
+        "seatCaption": "Director - Oakland Unified School District - 6",
+        "officeName": "Director - Oakland Unified School District - 6"
+      },
+      {
+        "seatNid": "128869723",
+        "electionNid": "128869701",
+        "seatOfficeNid": "121709611",
+        "seatCaption": "Mayor - City of Oakland",
+        "officeName": "Mayor - City of Oakland"
+      }
+    ],
+    "candidates": [
+      {
+        "candidateNid": "130386926",
+        "candidateName": "Alberts, Norman",
+        "seatNid": "128869723",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "150313924",
+        "candidateName": "Almanzor, Renato",
+        "seatNid": "150089670",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "149844544",
+        "candidateName": "Anderson, Jason ''Shake''",
+        "seatNid": "128869723",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "150317692",
+        "candidateName": "Blackburn, Kevin",
+        "seatNid": "148866485",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "121707703",
+        "candidateName": "Broadhurst, Jill",
+        "seatNid": "143314006",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "121708157",
+        "candidateName": "Brooks, Desley",
+        "seatNid": "144854433",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "150381016",
+        "candidateName": "Campbell Washington, Annie",
+        "seatNid": "143314006",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "150318449",
+        "candidateName": "Colbruno, Michael",
+        "seatNid": "148866485",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "151260458",
+        "candidateName": "Debro, Karl",
+        "seatNid": "151260438",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "121708300",
+        "candidateName": "Dobbins, Christoper",
+        "seatNid": "150089670",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "151885465",
+        "candidateName": "Eng, Aimee",
+        "seatNid": "151885447",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "152268726",
+        "candidateName": "Ghirirdelli, William \"Bo\"",
+        "seatNid": "151885447",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "150090223",
+        "candidateName": "Gonzales, Shanthi",
+        "seatNid": "150089670",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "151026012",
+        "candidateName": "Guillen, Abel",
+        "seatNid": "148866485",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "149663196",
+        "candidateName": "Heidorn, Nicolas",
+        "seatNid": "143314006",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "151632069",
+        "candidateName": "Houston, Ken",
+        "seatNid": "128869723",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "144854512",
+        "candidateName": "Johnson, Michael",
+        "seatNid": "144854433",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "121706448",
+        "candidateName": "Kaplan, Rebecca",
+        "seatNid": "128869723",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "151560902",
+        "candidateName": "Karamooz, Saied",
+        "seatNid": "128869723",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "149722364",
+        "candidateName": "King, Dana",
+        "seatNid": "148866485",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "151335502",
+        "candidateName": "Lim, Paul",
+        "seatNid": "143314006",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "150316698",
+        "candidateName": "Liu, Peter",
+        "seatNid": "128869723",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "148866574",
+        "candidateName": "Mao, Sokhom",
+        "seatNid": "148866485",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "152269578",
+        "candidateName": "Maxey, Ken",
+        "seatNid": "148866485",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "121706540",
+        "candidateName": "McCullough, Patrick",
+        "seatNid": "128869723",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "151820985",
+        "candidateName": "Moore, James",
+        "seatNid": "144854433",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "151024677",
+        "candidateName": "Nosakhare, Shereda",
+        "seatNid": "144854433",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "149845769",
+        "candidateName": "Park, Andrew",
+        "seatNid": "148866485",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "142085404",
+        "candidateName": "Parker, Bryan",
+        "seatNid": "128869723",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "121707451",
+        "candidateName": "Quan, Jean",
+        "seatNid": "128869723",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "121706560",
+        "candidateName": "Raphael, Leonard",
+        "seatNid": "151823449",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "151823472",
+        "candidateName": "Roberts, Brenda",
+        "seatNid": "151823449",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "121707589",
+        "candidateName": "Ruby, Courtney",
+        "seatNid": "128869723",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "121708068",
+        "candidateName": "Schaaf, Libby",
+        "seatNid": "128869723",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "151876455",
+        "candidateName": "Senn, Nina",
+        "seatNid": "151260438",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "151260614",
+        "candidateName": "Shakir, Atiff",
+        "seatNid": "151260438",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "121708210",
+        "candidateName": "Sidebotham, Nancy",
+        "seatNid": "128869723",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "128869761",
+        "candidateName": "Siegel, Dan",
+        "seatNid": "128869723",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "150319342",
+        "candidateName": "Sinclair, Craig",
+        "seatNid": "143314006",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "150316316",
+        "candidateName": "Smith, Jesse",
+        "seatNid": "128869723",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "151518454",
+        "candidateName": "Spigner, Cheri",
+        "seatNid": "151260438",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "121707384",
+        "candidateName": "Tuman, Joseph",
+        "seatNid": "128869723",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "150315241",
+        "candidateName": "Wade, Gregory",
+        "seatNid": "128869723",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "150314951",
+        "candidateName": "Washington, Sammuel",
+        "seatNid": "128869723",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "151875720",
+        "candidateName": "Wesley, Fred",
+        "seatNid": "128869723",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "150274918",
+        "candidateName": "Williams, Charles",
+        "seatNid": "128869723",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "151554748",
+        "candidateName": "Wilson, Eric",
+        "seatNid": "128869723",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "150314592",
+        "candidateName": "Wrigley-Larson, Margaret",
+        "seatNid": "128869723",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "121707551",
+        "candidateName": "Young Jr., Larry Lionel",
+        "seatNid": "128869723",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      }
+    ]
+  },
+  {
+    "electionNid": "121709357",
+    "aid": "COAK",
+    "electionDate": "2008-11-04",
+    "electionCaption": "11/4/2008 - General",
+    "isPublic": true,
+    "electionCodes": "General",
+    "measures": [
+      {
+        "measureNid": "121709361",
+        "electionNid": "121709357",
+        "measureNumber": "NN",
+        "measureDescription": "Election: 11/4/2008 - Measure NN-NN"
+      },
+      {
+        "measureNid": "121709363",
+        "electionNid": "121709357",
+        "measureNumber": "OO",
+        "measureDescription": "Election: 11/4/2008 - Measure OO-OO"
+      }
+    ],
+    "seats": [
+      {
+        "seatNid": "121709368",
+        "electionNid": "121709357",
+        "seatOfficeNid": "121709365",
+        "seatCaption": "City Council Member At-Large - City of Oakland",
+        "officeName": "City Council Member At-Large - City of Oakland"
+      }
+    ],
+    "candidates": [
+      {
+        "candidateNid": "121706417",
+        "candidateName": "Hamill, Kerry",
+        "seatNid": "121709368",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "121706448",
+        "candidateName": "Kaplan, Rebecca",
+        "seatNid": "121709368",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      }
+    ]
+  },
+  {
+    "electionNid": "121709377",
+    "aid": "COAK",
+    "electionDate": "2008-06-03",
+    "electionCaption": "6/3/2008 - General",
+    "isPublic": true,
+    "electionCodes": "General",
+    "measures": [
+      {
+        "measureNid": "121709379",
+        "electionNid": "121709377",
+        "measureNumber": "J",
+        "measureDescription": "Election: 6/3/2008 - Measure J-J"
+      }
+    ],
+    "seats": [
+      {
+        "seatNid": "121709384",
+        "electionNid": "121709377",
+        "seatOfficeNid": "121709381",
+        "seatCaption": "City Attorney - City of Oakland",
+        "officeName": "City Attorney - City of Oakland"
+      },
+      {
+        "seatNid": "121709396",
+        "electionNid": "121709377",
+        "seatOfficeNid": "121709393",
+        "seatCaption": "City Council - City of Oakland - 1",
+        "officeName": "City Council - City of Oakland - 1"
+      },
+      {
+        "seatNid": "121709417",
+        "electionNid": "121709377",
+        "seatOfficeNid": "121709414",
+        "seatCaption": "City Council - City of Oakland - 3",
+        "officeName": "City Council - City of Oakland - 3"
+      },
+      {
+        "seatNid": "121709443",
+        "electionNid": "121709377",
+        "seatOfficeNid": "121709440",
+        "seatCaption": "City Council - City of Oakland - 5",
+        "officeName": "City Council - City of Oakland - 5"
+      },
+      {
+        "seatNid": "121709479",
+        "electionNid": "121709377",
+        "seatOfficeNid": "121709476",
+        "seatCaption": "City Council - City of Oakland - 7",
+        "officeName": "City Council - City of Oakland - 7"
+      },
+      {
+        "seatNid": "121709496",
+        "electionNid": "121709377",
+        "seatOfficeNid": "121709365",
+        "seatCaption": "City Council Member At-Large - City of Oakland",
+        "officeName": "City Council Member At-Large - City of Oakland"
+      },
+      {
+        "seatNid": "121709532",
+        "electionNid": "121709377",
+        "seatOfficeNid": "121709529",
+        "seatCaption": "Director - Oakland Unified School District - 1",
+        "officeName": "Director - Oakland Unified School District - 1"
+      },
+      {
+        "seatNid": "121709559",
+        "electionNid": "121709377",
+        "seatOfficeNid": "121709556",
+        "seatCaption": "Director - Oakland Unified School District - 3",
+        "officeName": "Director - Oakland Unified School District - 3"
+      },
+      {
+        "seatNid": "121710614",
+        "electionNid": "121709377",
+        "seatOfficeNid": "121710529",
+        "seatCaption": "Director - Oakland Unified School District - 5",
+        "officeName": "Director - Oakland Unified School District - 5"
+      },
+      {
+        "seatNid": "121709578",
+        "electionNid": "121709377",
+        "seatOfficeNid": "121709575",
+        "seatCaption": "Director - Oakland Unified School District - 7",
+        "officeName": "Director - Oakland Unified School District - 7"
+      }
+    ],
+    "candidates": [
+      {
+        "candidateNid": "121706660",
+        "candidateName": "Blythe, Beverly",
+        "seatNid": "121709443",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "121706510",
+        "candidateName": "Brunner, Jane",
+        "seatNid": "121709396",
+        "isIncumbent": false,
+        "isWinner": true,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "121706688",
+        "candidateName": "De La Fuente, Ignacio",
+        "seatNid": "121709443",
+        "isIncumbent": false,
+        "isWinner": true,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "121710635",
+        "candidateName": "Gallo, Noel",
+        "seatNid": "121710614",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "121706776",
+        "candidateName": "Gilmore, Clifford",
+        "seatNid": "121709479",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "121706417",
+        "candidateName": "Hamill, Kerry",
+        "seatNid": "121709496",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "121706570",
+        "candidateName": "Hodge, Gregory",
+        "seatNid": "121709417",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "121707011",
+        "candidateName": "Hodge, Jumoke Hinton",
+        "seatNid": "121709559",
+        "isIncumbent": false,
+        "isWinner": true,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "121706716",
+        "candidateName": "Juarez, Mario",
+        "seatNid": "121709443",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "121706448",
+        "candidateName": "Kaplan, Rebecca",
+        "seatNid": "121709496",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "121706837",
+        "candidateName": "Killian, Clinton",
+        "seatNid": "121709496",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "121707071",
+        "candidateName": "Limbrick, Doris",
+        "seatNid": "121709578",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "121706925",
+        "candidateName": "London, Jody",
+        "seatNid": "121709532",
+        "isIncumbent": false,
+        "isWinner": true,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "121709407",
+        "candidateName": "McCullough, Patrick",
+        "seatNid": "121709396",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "121706600",
+        "candidateName": "Nadel, Nancy",
+        "seatNid": "121709417",
+        "isIncumbent": false,
+        "isWinner": true,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "121707041",
+        "candidateName": "Oluwole, Sr., Olibemiga",
+        "seatNid": "121709559",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "121706865",
+        "candidateName": "Pine, Charlers",
+        "seatNid": "121709496",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "121706955",
+        "candidateName": "Reed, Tennessee",
+        "seatNid": "121709532",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "124085264",
+        "candidateName": "Reid , Larry",
+        "seatNid": "121709479",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "121706806",
+        "candidateName": "Reid, Larry",
+        "seatNid": "121709479",
+        "isIncumbent": false,
+        "isWinner": true,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "121706983",
+        "candidateName": "Rogers, Brian",
+        "seatNid": "121709532",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "121706895",
+        "candidateName": "Rose, Frank",
+        "seatNid": "121709496",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "121706480",
+        "candidateName": "Russo, John",
+        "seatNid": "121709384",
+        "isIncumbent": false,
+        "isWinner": true,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "121707101",
+        "candidateName": "Spearman, Alice",
+        "seatNid": "121709578",
+        "isIncumbent": false,
+        "isWinner": true,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "121706630",
+        "candidateName": "Sullivan, Sean",
+        "seatNid": "121709417",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "121710354",
+        "candidateName": "Williams, Africa",
+        "seatNid": "121709417",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "121707129",
+        "candidateName": "Williams, Beverly",
+        "seatNid": "121709578",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "121706746",
+        "candidateName": "Woffard, David",
+        "seatNid": "121709443",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      }
+    ]
+  },
+  {
+    "electionNid": "125693758",
+    "aid": "COAK",
+    "electionDate": "2006-06-06",
+    "electionCaption": "6/6/2006 - Special",
+    "isPublic": true,
+    "electionCodes": "Special",
+    "measures": [],
+    "seats": [
+      {
+        "seatNid": "149465894",
+        "electionNid": "125693758",
+        "seatOfficeNid": "121709698",
+        "seatCaption": "City Council - City of Oakland - 2",
+        "officeName": "City Council - City of Oakland - 2"
+      },
+      {
+        "seatNid": "132332017",
+        "electionNid": "125693758",
+        "seatOfficeNid": "121709771",
+        "seatCaption": "City Council - City of Oakland - 6",
+        "officeName": "City Council - City of Oakland - 6"
+      },
+      {
+        "seatNid": "132330350",
+        "electionNid": "125693758",
+        "seatOfficeNid": "121709816",
+        "seatCaption": "Director - Oakland Unified School District - 6",
+        "officeName": "Director - Oakland Unified School District - 6"
+      },
+      {
+        "seatNid": "125693760",
+        "electionNid": "125693758",
+        "seatOfficeNid": "121709611",
+        "seatCaption": "Mayor - City of Oakland",
+        "officeName": "Mayor - City of Oakland"
+      }
+    ],
+    "candidates": [
+      {
+        "candidateNid": "132330389",
+        "candidateName": "Boyd, Wandra",
+        "seatNid": "132330350",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "132331855",
+        "candidateName": "Cook, Toni",
+        "seatNid": "132332017",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "121706688",
+        "candidateName": "De La Fuente, Ignacio",
+        "seatNid": "125693760",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "121707619",
+        "candidateName": "Kernighan, Patricia",
+        "seatNid": "149465894",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      }
+    ]
+  },
+  {
+    "electionNid": "133250667",
+    "aid": "COAK",
+    "electionDate": "2005-05-17",
+    "electionCaption": "5/17/2005 - Special",
+    "isPublic": true,
+    "electionCodes": "Special",
+    "measures": [],
+    "seats": [
+      {
+        "seatNid": "133250723",
+        "electionNid": "133250667",
+        "seatOfficeNid": "121709698",
+        "seatCaption": "City Council - City of Oakland - 2",
+        "officeName": "City Council - City of Oakland - 2"
+      }
+    ],
+    "candidates": [
+      {
+        "candidateNid": "133250767",
+        "candidateName": "Drake, Pamela",
+        "seatNid": "133250723",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "121710764",
+        "candidateName": "Kakishiba, David",
+        "seatNid": "133250723",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      },
+      {
+        "candidateNid": "121707619",
+        "candidateName": "Kernighan, Patricia",
+        "seatNid": "133250723",
+        "isIncumbent": false,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      }
+    ]
+  },
+  {
+    "electionNid": "149888771",
+    "aid": "COAK",
+    "electionDate": "2002-11-24",
+    "electionCaption": "11/24/2002 - General",
+    "isPublic": false,
+    "electionCodes": "General",
+    "measures": [],
+    "seats": [
+      {
+        "seatNid": "149888803",
+        "electionNid": "149888771",
+        "seatOfficeNid": "121710532",
+        "seatCaption": "Director - Oakland Unified School District - 2",
+        "officeName": "Director - Oakland Unified School District - 2"
+      }
+    ],
+    "candidates": [
+      {
+        "candidateNid": "121710764",
+        "candidateName": "Kakishiba, David",
+        "seatNid": "149888803",
+        "isIncumbent": true,
+        "isWinner": false,
+        "partyAffiliationId": "0",
+        "partyAffiliationName": ""
+      }
+    ]
+  }
+]
