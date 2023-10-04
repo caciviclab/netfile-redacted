@@ -2,7 +2,7 @@ import os
 from gdrive_client.GDriveCopier import GDriveCopier
 
 REPO_BRANCH = os.getenv('REPO_BRANCH','_LOCAL_')
-GDRIVE_FOLDER = os.getenv('GDRIVE_FOLDER','netfile_redacted')
+GDRIVE_FOLDER = os.getenv('GDRIVE_FOLDER','netfile_redacted') or 'netfile_redacted'
 
 downloads_dir = '.local/downloads'
 os.makedirs(downloads_dir, exist_ok=True)
