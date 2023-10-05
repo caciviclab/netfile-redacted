@@ -12,12 +12,11 @@ jobs:
       REPO_OWNER: ${{ github.repository_owner}}
       REPO_BRANCH: ${{ github.ref_name }}
       SERVICE_ACCOUNT_KEY_JSON: ${{ secrets.SERVICE_ACCOUNT_KEY_JSON }}
-      GDRIVE_FOLDER: ${{ secrets.GDRIVE_FOLDER }}
+      GDRIVE_FOLDER: ${{ vars.GDRIVE_FOLDER }}
     steps:
     - uses: actions/checkout@v3
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
-
     - run: "pip install -r requirements.txt"
     - run: "python pull_and_redact_files.py"
       env:
