@@ -17,21 +17,30 @@ The GitHub workflow has the ability to upload redacted files in netfile_redacted
    - Here's some instructions on how to enable an API: https://support.google.com/googleapi/answer/6158841?hl=en.  When searching for the API to enable, simply search for `Google Drive`.
    - Here's some instructions for creating a service account: https://cloud.google.com/iam/docs/service-accounts-create#iam-service-accounts-create-console.  Create it in the same project where the Google Drive API was enabled.
 
-2. The directory on Google Drive has to be shared with the service account.  This is done by getting the e-mail of the service account and sharing with that e-mail instead of a real person's e-mail.
+2. A folder on Google Drive has to be shared with the service account.  This is done by getting the e-mail of the service account and sharing with that e-mail instead of a real person's e-mail.
 
-3. A private key (in JSON) has to be created for the service account.  The private key should be placed in an environment variable, SERVICE_ACCOUNT_KEY_JSON.  For GitHub Actions, we can simply get the value from a secret of the same name.
+3. The name of the shared folder on Google Drive has to be set in a secret variable on GitHub named `GDRIVE_FOLDER`.  This currently should be `OpenDisclosure` for the production repository and `netfile_redacted` (the default) for the development repository.
 
-If SERVICE_ACCOUNT_KEY_JSON is not set, the redacted files will be copied to the repository.
+3. A private key (in JSON) has to be created for the service account.  The private key (contents of JSON file) should be placed in a secret variable, `SERVICE_ACCOUNT_KEY_JSON`, on GitHub.  There's no need to remove white spaces like newlines.
 
-A test for downloading the redacted files to a download directory is run when the workflow runs on ChenglimEar.
+If `SERVICE_ACCOUNT_KEY_JSON` is not set, the redacted files will not be copied to Google Drive.
 
-The upload and download can be tested locally by naming the key file as `.local/SERVICE_ACCOUNT_KEY_JSON.json`.  The `.local` directory is in the `.gitignore` file, so the file won't be checked in accidentally.
+When the GitHub workflow runs on `caciviclab`, it will run a test for downloading the redacted files to a download directory.  The GitHub workflow on `caciviclab` should not be configured to use the same Google Drive folder that is used in the production repository, which pulls the real data from NetFile.  This will avoid overwriting the production data.
+
+The upload and download can be tested locally by naming the key file as `.local/SERVICE_ACCOUNT_KEY_JSON.json`.  The `.local` directory is in the `.gitignore` file, so the file won't be checked in accidentally.  The `GDRIVE_FOLDER` environment variable should be set to the Google Drive folder used for local testing.
 
 ## Contributing Changes
 
-### Forking Required
+### Production Pull Required
 
-When this repository is set up to access the NetFile API, write access will be limited to protect the credentials used for NetFile.  To contribute changes, it will be necessary to fork the repository and submit a pull request from the forked repository.  Here is GitHub documentation about this process: https://docs.github.com/en/get-started/quickstart/fork-a-repo.  Only those who have access to the authoritative repository can be reviewers of the pull request.
+This repository exists in two organizations.  One is for production and one is for development.  The production repository is set up to access the NetFile API and the development repository in `caciviclab` is set up to process sample files instead of calling the API.
+
+When this repository is set up to access the NetFile API in production, write access will be limited to protect the credentials used for NetFile.  To contribute changes, it will be necessary to use the repository in `caciviclab`.  The production repository is a fork of the repository.  Here is GitHub documentation about forks: https://docs.github.com/en/get-started/quickstart/fork-a-repo.  Only those who have access to the production repository can pull the latest changes approved in the `caciviclab` repository.
+
+In short, contributions go through a two step process:
+
+1. Submit pull requests to main branch of the development repository in `caciviclab`
+2. Ask owners of the production repository to merge changes from the development repository to the production repository.
 
 ### Redaction Configuration
 
