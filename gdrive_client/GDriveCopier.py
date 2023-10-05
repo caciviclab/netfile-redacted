@@ -52,7 +52,7 @@ and a folder on Google Drive.
                 # overwrite if file exists on Google Drive
                 file_meta_data['id'] = drive_files_dict[local_file]['id']
             drive_file = self.drive.CreateFile(file_meta_data)
-            drive_file.SetContentFile(f'{self.target_folder}/{local_file}')
+            drive_file.SetContentFile(f'{local_folder}/{local_file}')
             drive_file.Upload()
 
     def download_to(self, local_folder):
