@@ -19,7 +19,7 @@ The GitHub workflow has the ability to upload redacted files in netfile_redacted
 
 2. A folder on Google Drive has to be shared with the service account.  This is done by getting the e-mail of the service account and sharing with that e-mail instead of a real person's e-mail.
 
-3. The name of the shared folder on Google Drive has to be set in a secret variable on GitHub named `GDRIVE_FOLDER`.  This currently should be `OpenDisclosure` for the production repository and `netfile_redacted` (the default) for the development repository.
+3. The name of the shared folder on Google Drive has to be set in a clear text variable on GitHub named `GDRIVE_FOLDER`.  This currently should be `OpenDisclosure` for the production repository and `netfile_redacted` (the default) for the development repository.
 
 3. A private key (in JSON) has to be created for the service account.  The private key (contents of JSON file) should be placed in a secret variable, `SERVICE_ACCOUNT_KEY_JSON`, on GitHub.  There's no need to remove white spaces like newlines.
 
