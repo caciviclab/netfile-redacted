@@ -1,4 +1,3 @@
-import os
 from gdrive_client.GDriveCopier import GDriveCopier
 
 REPO_BRANCH = os.getenv('REPO_BRANCH','_LOCAL_')
