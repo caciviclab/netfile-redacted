@@ -195,7 +195,7 @@ class NetFileClient:
     def fetch(self, endpoint, **kwargs):
         """ Fetch all of a particular record type """
         url = self._base_url + getattr(Routes, endpoint)
-        params = self._params
+        params = { **self._params }
         if 'params' in kwargs:
             params.update(kwargs['params'])
         res = self.session.get(url, auth=self._auth, params=params)
