@@ -6,19 +6,46 @@ on:
 permissions:
   contents: write
 jobs:
-  pull_data:
+  pull_and_redact:
     runs-on: ubuntu-latest
     env:
       REPO_OWNER: ${{ github.repository_owner}}
       REPO_BRANCH: ${{ github.ref_name }}
       SERVICE_ACCOUNT_KEY_JSON: ${{ secrets.SERVICE_ACCOUNT_KEY_JSON }}
       GDRIVE_FOLDER: ${{ vars.GDRIVE_FOLDER }}
+    strategy:
+      matrix:
+        endpoint:
+          - elections
+          - filers
+          - filings
+          - filing_elements
+          - transactions
     steps:
     - uses: actions/checkout@v3
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
-    - run: "pip install -r requirements.txt"
-    - run: "python pull_and_redact_files.py"
+    - run: pip install -r requirements.txt
+    - run: |
+        import json
+        import yaml
+        from pull_and_redact_files import DataRetriever
+        from netfile_client.NetFileClient import NetFileClient
+
+        nf = NetFileClient()
+        endpoint = '${{ matrix.endpoint }}'
+        data = nf.fetch(endpoint)
+
+        with open('config.yaml', 'r') as f:
+          config_yaml = yaml.load(f)
+
+        redactor = DataRetriever(config_yaml)
+
+        redactor.redact(data, endpoint)
+
+        with open(f'{redactor.dest_dirpath}/${endpoint}.json', 'w') as f:
+          json.dump(data, f)
+      shell: python
       env:
         NETFILE_API_KEY: ${{ secrets.NETFILE_API_KEY }}
         NETFILE_API_SECRET: ${{ secrets.NETFILE_API_SECRET }}
