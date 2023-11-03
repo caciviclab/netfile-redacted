@@ -1,6 +1,6 @@
 endpoints:
-  # filers: {}
-  # filings: {}
+  filers: {}
+  filings: {}
   transactions:
     parts: All
   elections: {}
