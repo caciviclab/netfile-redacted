@@ -93,7 +93,7 @@ class NetFileClient:
 
     def fetch(self, endpoint, **kwargs):
         """ Fetch all of a particular record type """
-        self._logger.debug('Fetch got kwargs %s', kwargs)
+        self._logger.debug('fetch got kwargs %s', kwargs)
         url = self._base_url + getattr(Routes, endpoint)
         params = { **self._params }
         if 'params' in kwargs:

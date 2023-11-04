@@ -1,7 +1,13 @@
 import os
 import json
+import logging
 import yaml
 from netfile_client.NetFileClient import NetFileClient
+
+LOG_LEVEL = os.getenv('LOG_LEVEL', 'INFO')
+logger = logging.getLogger(__name__)
+logger.addHandler(logging.StreamHandler())
+logger.setLevel(LOG_LEVEL)
 
 class DataRetriever:
     ''' Used to retrieve and redact files
@@ -24,14 +30,14 @@ class DataRetriever:
         self.endpoint_spec = config['endpoints']
         self.dest_dirpath = dest_dirpath
 
-        netfile_api_key = os.getenv('NETFILE_API_KEY','')
-        netfile_api_secret = os.getenv('NETFILE_API_SECRET','')
+        NETFILE_API_KEY = os.getenv('NETFILE_API_KEY','')
+        NETFILE_API_SECRET = os.getenv('NETFILE_API_SECRET','')
 
-        if ((netfile_api_key != '') and (netfile_api_secret != '')) or os.path.exists('.env'):
-            print('Making NetFile API calls')
+        if ((NETFILE_API_KEY != '') and (NETFILE_API_SECRET != '')) or os.path.exists('.env'):
+            logger.info('Making NetFile API calls')
             self.nf = NetFileClient()
         else:
-            print('Simulating NetFile response since no credentials provided')
+            logger.info('Simulating NetFile response since no credentials provided')
             self.nf = None
 
         os.makedirs(self.dest_dirpath, exist_ok=True)
@@ -41,16 +47,16 @@ class DataRetriever:
         ''' Get names of content to fetch from NetFile, redact and save '''
 
         for name, extra_params in self.endpoint_spec.items():
-            print(f'Fetch {name} with params {extra_params}')
+            logger.info('Get %s', name)
             data = self.fetch(name, extra_params)
-            print(f'Got {name} of {len(data)} rows')
+            logger.info('Got %s of %s rows', name, len(data))
 
             if name in self.redaction_fields:
-                print(f'Redact {name}')
+                logger.info('Redact %s', name)
                 self.redact(data, name)
 
             with open(outpath := f'{self.dest_dirpath}/{name}.json','w', encoding='utf8') as f:
-                print(f'Save {name} to {outpath}')
+                logger.info('Save %s to %s', name, outpath)
                 json.dump(data,f,sort_keys=True,indent=1)
 
 
@@ -65,7 +71,7 @@ class DataRetriever:
             else:
                 data = []
         else:
-            print(f'Pass extra_params {extra_params} to self.nf.fetch')
+            logger.debug('Pass extra_params %s to self.nf.fetch', extra_params)
             data = self.nf.fetch(name, params=extra_params)
         return data
 
