@@ -68,6 +68,7 @@ class NetFileClient:
         self._logger.setLevel(self._log_level)
 
     def get_auth(self, env_file):
+        ''' Get key and secret from env vars or .env file '''
         key_api_key = 'NETFILE_API_KEY'
         key_api_secret = 'NETFILE_API_SECRET'
 
@@ -92,10 +93,12 @@ class NetFileClient:
 
     def fetch(self, endpoint, **kwargs):
         """ Fetch all of a particular record type """
+        self._logger.debug('fetch got kwargs %s', kwargs)
         url = self._base_url + getattr(Routes, endpoint)
         params = { **self._params }
         if 'params' in kwargs:
             params.update(kwargs['params'])
+        self._logger.debug('Fetch %s with params %s', url, params)
         res = self.session.get(url, auth=self._auth, params=params)
         body = res.json()
         results = body['results']
